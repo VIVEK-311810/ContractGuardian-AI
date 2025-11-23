@@ -1,0 +1,147 @@
+{
+  "contract_id": "MSA-2025-001-MR",
+  "risk_score": 6,
+  "risk_level": "Medium Risk",
+  "category": "Master Services Agreement",
+  "contract_value": "Variable based on SOWs",
+  "jurisdiction": "Arizona",
+  "critical_issues": [
+    "HIPAA Business Associate status creates significant compliance obligations",
+    "Liability cap of $250,000 or 12 months fees may be inadequate for healthcare PHI breaches",
+    "Provider responsible for HIPAA violations but Client controls many aspects of security",
+    "24-hour security incident notification is tight timeline",
+    "Auto-renewal with 60-day notice requirement",
+    "$3M cyber liability insurance required (costs $15K-40K annually)",
+    "Provider may use subcontractors with approval (introduces additional risk)",
+    "Separate BAA required (additional compliance layer)",
+    "Client audit rights create operational burden"
+  ],
+  "strengths": [
+    "MSA framework allows flexible SOW-based engagements",
+    "Reasonable 2-year initial term with 60-day termination notice",
+    "Liability cap is higher of $250K or 12 months fees (better protection)",
+    "Mutual indemnification structure",
+    "90-day warranty with re-performance remedy",
+    "3-year confidentiality (not perpetual)",
+    "Clear service level expectations",
+    "Provider retains tools and methodologies (good IP protection)",
+    "SOW-specific terms allow customization",
+    "Emergency change provisions for security patches",
+    "Transition assistance included (30 days)"
+  ],
+  "hipaa_compliance_risks": [
+    "Business Associate status triggers extensive HIPAA obligations",
+    "Must implement administrative, physical, and technical safeguards",
+    "24-hour breach notification requirement",
+    "PHI must be encrypted at rest and in transit",
+    "Access controls, authentication, audit logging required",
+    "Secure disposal procedures mandatory",
+    "Annual HIPAA audits by Client",
+    "Provider liable for regulatory fines from Provider's violations",
+    "HIPAA penalties range from $100-$50,000 per violation (can be millions)",
+    "Must train all personnel on HIPAA before PHI access",
+    "Subcontractors must also comply with HIPAA",
+    "PHI confidentiality has no expiration (indefinite)"
+  ],
+  "liability_analysis": {
+    "cap_structure": "Greater of $250,000 or 12 months fees",
+    "minimum_cap": "$250,000",
+    "excluded_damages": "Indirect, consequential, lost profits, data loss, business interruption",
+    "exceptions_to_cap": [
+      "HIPAA violations from Provider's gross negligence (unlimited)",
+      "Confidentiality breaches (unlimited)",
+      "Willful misconduct (unlimited)",
+      "Death or bodily injury from negligence (unlimited)"
+    ],
+    "assessment": "$250K minimum cap may be inadequate for major PHI breach affecting thousands of patients",
+    "typical_hipaa_breach_costs": "$200-$400 per patient record (notification, credit monitoring, legal, fines)",
+    "breach_of_10000_records": "$2M-4M in costs (far exceeds $250K cap)"
+  },
+  "insurance_requirements": {
+    "professional_liability": "$2,000,000",
+    "general_liability": "$1,000,000",
+    "cyber_liability": "$3,000,000 (critical for healthcare)",
+    "workers_comp": "Statutory",
+    "total_coverage": "$6,000,000+",
+    "estimated_annual_cost": "$20,000-50,000",
+    "assessment": "Cyber liability requirement appropriate for healthcare but expensive"
+  },
+  "service_level_concerns": [
+    "Critical response: 1 hour (challenging 24/7)",
+    "Support hours: 8am-6pm MT Monday-Friday (10 hours/day, 5 days/week)",
+    "After-hours support requires SOW specification",
+    "Healthcare systems often need 24/7 support",
+    "Response time ≠ resolution time",
+    "Service credits available but must be specified in SOW"
+  ],
+  "personnel_and_subcontractor_risks": [
+    "Provider may replace personnel with Client consent",
+    "Background checks required per Client policies",
+    "HIPAA training required before PHI access",
+    "Subcontractors allowed with approval",
+    "Provider responsible for subcontractor performance",
+    "Each subcontractor needs confidentiality and HIPAA agreements",
+    "More subcontractors = more potential points of failure"
+  ],
+  "termination_and_transition": [
+    "Either party: 60 days notice",
+    "For cause: 15 days to cure",
+    "MSA termination doesn't auto-terminate active SOWs",
+    "30 days transition assistance at standard rates (could cost $10K-30K)",
+    "Provider must return or destroy all PHI",
+    "Documentation and knowledge transfer required"
+  ],
+  "sow_framework_analysis": [
+    "MSA sets general terms; SOWs define specific projects",
+    "Flexible approach for varying needs",
+    "Each SOW can have custom terms",
+    "SOW terms prevail over MSA in conflicts (good)",
+    "Change orders required for SOW modifications",
+    "Emergency changes allowed with verbal approval"
+  ],
+  "compliance_and_audit": [
+    "Must comply with HIPAA, HITECH, state laws, FDA if applicable",
+    "Client may audit annually with 30 days notice",
+    "Provider must cooperate and remediate findings",
+    "Audit costs and disruption to Provider operations",
+    "Remediation costs could be significant"
+  ],
+  "ip_allocation": [
+    "Client-specific work becomes Client's property upon payment",
+    "Provider retains pre-existing tools and methodologies",
+    "Third-party software licenses are Client's responsibility",
+    "Balanced approach appropriate for MSA"
+  ],
+  "data_security_obligations": [
+    "PHI encryption at rest and in transit (AES-256, TLS 1.2+)",
+    "Access controls and authentication (MFA likely required)",
+    "Audit logging of all PHI access",
+    "Secure disposal per NIST 800-88",
+    "24-hour security incident notification",
+    "Ongoing security monitoring required"
+  ],
+  "financial_risk_estimate": {
+    "liability_exposure": "$250,000+ (minimum cap, but unlimited for HIPAA gross negligence)",
+    "insurance_costs": "$20,000-50,000 annually",
+    "hipaa_compliance_costs": "$10,000-30,000 annually (training, audits, controls)",
+    "potential_breach_costs": "$2M-10M+ if major PHI breach",
+    "transition_costs_if_terminated": "$10,000-30,000",
+    "total_annual_risk": "$280,000-500,000 in normal operations",
+    "catastrophic_risk": "$2M-10M+ for major breach"
+  },
+  "recommendation": "NEGOTIATE",
+  "rationale": "This MSA has reasonable framework terms but significant HIPAA compliance obligations create substantial risk. The $250K minimum liability cap is inadequate for healthcare PHI breaches that could affect thousands of patients. The 24-hour breach notification timeline is tight, and the Provider is liable for HIPAA fines from their violations. The required insurance ($6M total coverage) is expensive. However, the MSA structure provides flexibility, mutual indemnification is balanced, and Provider retains IP rights appropriately.",
+  "required_changes": [
+    "Increase liability cap to minimum $1M or 2x annual fees for HIPAA-related incidents",
+    "Extend security incident notification from 24 to 48-72 hours",
+    "Add explicit limitations on Provider's HIPAA liability (cap at $500K-1M for regulatory fines)",
+    "Clarify which party handles specific HIPAA obligations (shared responsibility matrix)",
+    "Add indemnification from Client for fines resulting from Client's security policy inadequacies",
+    "Extend breach notification timeline to align with HIPAA's 60-day requirement",
+    "Specify that transition assistance is capped at 20 hours or specific dollar amount",
+    "Add provision that Client's audit findings must be reasonable and Provider has 60 days to remediate",
+    "Clarify SLA expectations - response vs. resolution times",
+    "Add force majeure protection for circumstances affecting ability to meet SLAs"
+  ],
+  "acceptable_for": "IT service providers with strong HIPAA expertise, adequate cyber insurance, established healthcare client base, and mature security practices"
+}

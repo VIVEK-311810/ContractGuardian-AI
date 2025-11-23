@@ -1,0 +1,231 @@
+{
+  "contract_id": "ICA-2025-001-HR",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "Independent Contractor Agreement",
+  "contract_value": "$8,500/month ($102,000 annually)",
+  "jurisdiction": "Georgia",
+
+  "critical_issues": [
+    "Perpetual confidentiality obligation with no expiration date",
+    "24-month non-compete in entire enterprise software industry (overly broad)",
+    "24-month non-solicitation of clients Contractor 'interacted with' (could be hundreds)",
+    "Auto-renewal for 12-month terms with 60-day notice requirement",
+    "Asymmetric termination: Company 30 days, Contractor 60 days",
+    "Contractor forfeits final month compensation ($8,500) if Contractor terminates",
+    "Unlimited indemnification with no monetary cap",
+    "Required insurance ($2M total coverage) costs $2,000-4,000/year",
+    "20 hours unpaid transition work required upon termination",
+    "Company has unilateral approval rights over all work",
+    "Non-compete scope determined by 'Company in its sole discretion'"
+  ],
+
+  "liability_analysis": {
+    "contractor_liability": "Unlimited - no cap on indemnification obligations",
+    "company_liability": "Capped at 3 months fees ($25,500)",
+    "assessment": "Extremely one-sided; Contractor exposed to unlimited liability while Company's liability is minimal",
+    "indemnification_scope": [
+      "Breach of agreement",
+      "Negligence or willful misconduct",
+      "IP infringement claims",
+      "False advertising",
+      "FTC violations",
+      "Data privacy violations (GDPR, CCPA, CAN-SPAM)",
+      "Defamation and privacy violations"
+    ],
+    "survival": "Indemnification survives termination indefinitely"
+  },
+
+  "non_compete_analysis": {
+    "duration": "24 months post-termination",
+    "geographic_scope": "United States and Canada",
+    "industry_restriction": "Entire enterprise software industry",
+    "specific_restrictions": [
+      "Cannot provide marketing services to any competitor",
+      "Cannot work for companies in enterprise software",
+      "Cannot engage in competing business",
+      "Cannot market competitive products"
+    ],
+    "competitor_definition": "Project management, team collaboration, or workflow automation software (as determined solely by Company)",
+    "enforceability_concerns": [
+      "Extremely broad industry restriction (all enterprise software)",
+      "24 months is long for contractor relationship",
+      "May be unenforceable in some jurisdictions",
+      "'Sole discretion' clause gives Company unlimited power to define competitors",
+      "Effectively prohibits Contractor from working in their field for 2 years"
+    ],
+    "financial_impact": "Could eliminate 50-80% of potential clients for 2 years"
+  },
+
+  "non_solicitation_analysis": {
+    "duration": "24 months",
+    "employee_restriction": "Cannot solicit, recruit, or hire any Company employees/contractors",
+    "client_restriction": "Cannot solicit clients or prospects Contractor 'interacted with'",
+    "scope_concerns": [
+      "'Interacted with' is extremely broad",
+      "Could include hundreds of clients if managing Company's accounts",
+      "Viewing a client's LinkedIn profile might constitute 'interaction'",
+      "24 months is long for preventing client contact",
+      "May prevent Contractor from working with existing clients from before engagement"
+    ]
+  },
+
+  "confidentiality_concerns": [
+    "Perpetual confidentiality with no time limit or expiration",
+    "Covers business strategies, customer lists, pricing, financials, product roadmaps, marketing plans",
+    "Indefinite survival after termination",
+    "Breach can result in 'immediate termination and legal action'",
+    "Very broad definition of confidential information",
+    "No carve-outs for information that becomes public or was independently known"
+  ],
+
+  "termination_risks": [
+    "Auto-renewal for 12-month terms unless 60 days notice given",
+    "Easy to miss renewal deadline and be locked in another year",
+    "Company can terminate with 30 days notice",
+    "Contractor must give 60 days notice (asymmetric)",
+    "If Contractor terminates, forfeits entire final month ($8,500)",
+    "Must provide 20 hours unpaid transition work",
+    "10-day cure period for breach is short"
+  ],
+
+  "ip_and_work_product": [
+    "All work is 'work for hire' belonging to Company",
+    "Includes all content, strategies, campaigns, reports, creative work",
+    "Contractor cannot reuse or reference work in portfolio without permission",
+    "Company owns all social media followers, engagement, account assets",
+    "Contractor must transfer all admin rights and cannot export data",
+    "Reasonable for work-for-hire arrangement but eliminates portfolio building"
+  ],
+
+  "compensation_concerns": [
+    "$8,500/month for 30-35 hours/week = $49-$57/hour (below market for experienced marketer)",
+    "Must manage $15,000-25,000/month ad budget (significant responsibility)",
+    "20 social posts/week + 4 blogs/month + 8 email campaigns = substantial workload",
+    "Insurance requirements cost $2,000-4,000/year (reduces effective compensation)",
+    "Forfeit final month if Contractor terminates ($8,500 penalty)",
+    "Payment net 20 days (3 week delay)",
+    "Annual value $102,000 but net of insurance is $98,000-100,000"
+  ],
+
+  "workload_analysis": {
+    "stated_hours": "30-35 hours/week",
+    "deliverables": [
+      "20 social media posts/week (4-5 hours)",
+      "4 blog posts/month at 800-1200 words (12-16 hours/month)",
+      "8 email campaigns/month (10-12 hours/month)",
+      "Ad campaign management $15K-25K budget (10-15 hours/week)",
+      "Analytics and monthly reports (4-6 hours/month)",
+      "Weekly meetings",
+      "Vendor coordination"
+    ],
+    "estimated_actual_hours": "40-50 hours/week during busy periods",
+    "assessment": "Workload likely exceeds 30-35 hours, especially during campaign launches"
+  },
+
+  "approval_requirements": [
+    "Company must approve all content before publication",
+    "Company can reject work and require unlimited revisions at no cost",
+    "Company can override all recommendations",
+    "Company makes all final decisions",
+    "Approval required for new campaigns, ad creative, blog posts, strategy changes, expenditures over $500",
+    "Creates significant bottleneck and potential for scope creep via endless revisions"
+  ],
+
+  "insurance_requirements": {
+    "professional_liability": "$1,000,000",
+    "general_liability": "$1,000,000",
+    "total_coverage": "$2,000,000",
+    "estimated_annual_cost": "$2,000 - $4,000",
+    "impact_on_compensation": "Reduces effective annual income by 2-4%",
+    "availability": "May be difficult to obtain for marketing contractors"
+  },
+
+  "social_media_control": [
+    "Company retains ownership of all accounts and assets",
+    "Can revoke Contractor access at any time",
+    "Contractor cannot claim followers or engagement",
+    "Cannot export data for personal use",
+    "Must transfer all admin rights upon termination",
+    "Reasonable from Company perspective but limits Contractor's portfolio and case studies"
+  ],
+
+  "performance_evaluation": [
+    "Quarterly performance reviews",
+    "Evaluated on engagement rates, traffic, leads, email performance, ROAS",
+    "Company can reject work that doesn't meet quality standards",
+    "No objective performance standards defined",
+    "Subjective quality assessment could lead to disputes",
+    "Marketing results depend on many factors outside Contractor's control"
+  ],
+
+  "regulatory_compliance_risks": [
+    "Contractor warrants compliance with FTC guidelines and platform policies",
+    "Must comply with GDPR, CCPA, CAN-SPAM",
+    "Indemnifies Company for violations",
+    "Advertising regulations complex and constantly changing",
+    "Platform policies (Facebook, Google) change frequently",
+    "Contractor liable for violations even if Company approved the content"
+  ],
+
+  "dispute_resolution": [
+    "Governed by Georgia law",
+    "Binding arbitration in Alpharetta, Georgia",
+    "Each party bears own costs",
+    "Company can seek injunctive relief in court for confidentiality/non-compete breaches",
+    "Arbitrator's decision is final",
+    "Reasonable process but location may be inconvenient for remote Contractor"
+  ],
+
+  "financial_risk_estimate": {
+    "annual_compensation": "$102,000",
+    "insurance_costs": "$2,000 - $4,000/year",
+    "net_annual_compensation": "$98,000 - $100,000",
+    "forfeited_final_month_if_terminate": "$8,500",
+    "unpaid_transition_work_value": "$2,000 - $3,000 (20 hours @ $100-150/hour)",
+    "liability_exposure": "Unlimited",
+    "opportunity_cost_from_non_compete": "$50,000 - $200,000 (24 months of restricted work)",
+    "total_estimated_risk": "$60,000 - $300,000+",
+    "effective_hourly_rate": "$49 - $57/hour (before insurance costs)"
+  },
+
+  "recommendation": "NEGOTIATE HEAVILY",
+
+  "rationale": "This contract has several dangerous provisions that create excessive risk for the Contractor. The unlimited indemnification, 24-month non-compete covering the entire enterprise software industry, perpetual confidentiality, auto-renewal, asymmetric termination rights, and forfeiture of final month's pay are all problematic. The $8,500/month compensation may be insufficient given the workload, responsibilities (managing $240K-300K annual ad budget), and insurance requirements. The non-compete's 'sole discretion' clause gives Company unlimited power to define competitors. However, the work-for-hire IP arrangement is standard for this type of engagement.",
+
+  "required_changes_to_accept": [
+    "Cap indemnification at $50,000 or 6 months compensation",
+    "Reduce non-compete to 6-12 months maximum",
+    "Narrow non-compete to specific competing products (not entire industry)",
+    "Remove 'sole discretion' language from competitor definition",
+    "Limit non-solicitation of clients to those Contractor directly managed accounts for",
+    "Change confidentiality from perpetual to 2-3 years",
+    "Make termination notice symmetric (both parties 30 days or both 45 days)",
+    "Remove forfeiture of final month's compensation",
+    "Reduce unpaid transition work to 10 hours maximum",
+    "Remove auto-renewal or reduce notice period to 30 days",
+    "Add objective performance standards",
+    "Limit revision requests to 2 rounds per deliverable",
+    "Increase compensation to $10,000-11,000/month given workload and ad budget responsibility",
+    "Add mutual liability cap or increase Company's liability cap"
+  ],
+
+  "deal_breakers": [
+    "If unlimited indemnification cannot be capped",
+    "If non-compete cannot be reduced below 18 months or narrowed in scope",
+    "If perpetual confidentiality cannot be limited to reasonable term",
+    "If forfeiture of final month's pay cannot be removed",
+    "If compensation cannot be increased to reflect actual workload"
+  ],
+
+  "strengths_of_contract": [
+    "Clear scope of work and deliverables defined",
+    "Work-for-hire IP arrangement is standard for contractor marketing work",
+    "Company appropriately owns social media accounts and assets",
+    "Reasonable that Company has approval rights over public-facing content",
+    "Payment terms (net 20 days) are acceptable",
+    "Expense reimbursement for business expenses",
+    "Each party bears own arbitration costs (not one-sided)",
+    "Quarterly performance reviews provide feedback opportunity"
+  ]
+}

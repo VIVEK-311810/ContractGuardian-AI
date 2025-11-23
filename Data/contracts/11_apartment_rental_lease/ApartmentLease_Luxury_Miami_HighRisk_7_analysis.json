@@ -1,0 +1,30 @@
+{
+  "contract_id": "APT-MIA-2025-005-HR",
+  "risk_score": 7,
+  "risk_level": "High Risk",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$4,500/month + $250 amenity = $114,000 over 24 months",
+  "jurisdiction": "Florida (Miami-Dade)",
+  "critical_issues": [
+    "24-month term with NO early termination option",
+    "If vacate early: all remaining rent + $5,000 penalty + deposit ($113,000+ exposure)",
+    "$9,000 security deposit (2 months)",
+    "$250/month mandatory amenity fee ($6,000 over lease)",
+    "$400 minimum cleaning fee",
+    "No pets allowed",
+    "$5,000 fine for Airbnb violation",
+    "Monthly inspections allowed",
+    "No cure period for defaults",
+    "Auto-pay required",
+    "Repairs under $300 are tenant responsibility"
+  ],
+  "financial_risk_estimate": {
+    "total_commitment": "$114,000 (rent + amenities)",
+    "security_deposit": "$9,000",
+    "early_exit_exposure": "$113,000+ (all remaining rent)",
+    "violation_fines": "$500-5,000",
+    "total_risk": "$120,000-130,000"
+  },
+  "recommendation": "NEGOTIATE HEAVILY",
+  "rationale": "Extremely expensive luxury lease with no exit option. The $113,000+ liability for early termination is catastrophic. Only sign if absolutely certain of 24-month commitment."
+}

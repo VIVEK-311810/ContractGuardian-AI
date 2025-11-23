@@ -1,0 +1,36 @@
+{
+  "contract_id": "APT-BLD-2025-006-MR",
+  "risk_score": 4,
+  "risk_level": "Medium Risk",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$3,200/month ($32,000 for 10 months)",
+  "jurisdiction": "Colorado (Boulder)",
+  "critical_issues": [
+    "Joint and several liability (each student liable for full $3,200 if others don't pay)",
+    "If roommate leaves, others must cover their share or find replacement",
+    "10-month academic lease may not align with all academic calendars",
+    "Furniture damage charged to entire group's deposit",
+    "Party size limit (20 guests) could be violated easily"
+  ],
+  "strengths": [
+    "10-month lease matches academic year",
+    "Summer sublease allowed with approval",
+    "Fully furnished (saves $2,000-4,000)",
+    "Wi-Fi, water, trash included",
+    "30-day deposit return",
+    "Landlord handles all repairs",
+    "Early exit option for academic reasons",
+    "2 parking spaces for 4 students",
+    "Reasonable quiet hours"
+  ],
+  "financial_risk_estimate": {
+    "per_student_commitment": "$8,000 (10 months × $800)",
+    "joint_liability_exposure": "$32,000 if all roommates default",
+    "security_deposit": "$800 per student",
+    "early_exit_penalty": "$3,200 (1 month)",
+    "utilities": "$50-100/month per student",
+    "total_risk_per_student": "$9,000-11,000"
+  },
+  "recommendation": "SIGN WITH AWARENESS",
+  "rationale": "Standard student housing lease with typical joint/several liability. Good value for furnished near-campus housing. Main risk is roommate default requiring you to cover their share. Choose roommates carefully."
+}

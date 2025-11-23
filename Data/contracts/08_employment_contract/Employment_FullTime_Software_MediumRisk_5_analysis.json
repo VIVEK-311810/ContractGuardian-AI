@@ -1,0 +1,174 @@
+{
+  "contract_id": "EMP-2025-001-MR",
+  "risk_score": 5,
+  "risk_level": "Medium Risk",
+  "category": "Employment Contract",
+  "contract_value": "$145,000 base + up to $21,750 bonus + 10,000 options + benefits",
+  "jurisdiction": "Texas",
+  "critical_issues": [
+    "Perpetual confidentiality obligation (no expiration)",
+    "12-month non-compete in entire United States",
+    "18-month non-solicitation of employees and customers",
+    "Broad IP assignment including work created outside work hours",
+    "Sign-on bonus must be repaid pro-rata if leave within 12 months",
+    "4-week notice requested for resignation (not required but could affect severance)",
+    "At-will employment with minimal severance (4 weeks)",
+    "Approval required for all outside activities",
+    "Mandatory arbitration for all disputes"
+  ],
+  "strengths": [
+    "Competitive compensation package ($145K + 15% bonus potential + equity)",
+    "Strong benefits (health insurance, 401k match, 15 days PTO, parental leave)",
+    "Professional development budget ($2K/year)",
+    "Home office stipend ($1K/year)",
+    "At-will employment (can leave anytime, though notice requested)",
+    "Hybrid work arrangement (3 days office, 2 remote)",
+    "Severance provided if terminated without cause",
+    "Non-compete limited to 12 months (reasonable for tech)",
+    "Can list prior inventions to exclude from IP assignment"
+  ],
+  "compensation_analysis": {
+    "base_salary": "$145,000/year",
+    "target_total_cash": "$166,750 (with 15% bonus)",
+    "equity": "10,000 options (value depends on strike price and company valuation)",
+    "sign_on_bonus": "$15,000 (but must repay if leave within 1 year)",
+    "professional_development": "$2,000/year",
+    "home_office": "$1,000/year",
+    "401k_match": "4% ($5,800/year)",
+    "total_comp_estimate": "$180,000-200,000+ depending on equity value",
+    "assessment": "Competitive for Senior Software Engineer in Austin, TX"
+  },
+  "equity_concerns": [
+    "10,000 stock options with 4-year vesting",
+    "25% cliff after 1 year (2,500 options)",
+    "Monthly vesting thereafter",
+    "Strike price determined by Board (unknown value)",
+    "Subject to separate Stock Option Agreement (not included)",
+    "Unvested options forfeited upon termination",
+    "No information on company valuation or exit potential",
+    "Options may be worthless if company doesn't succeed"
+  ],
+  "sign_on_bonus_risk": [
+    "$15,000 paid with first paycheck",
+    "Must repay pro-rata if leave within 12 months",
+    "If leave after 6 months, owe $7,500",
+    "Creates golden handcuffs for first year",
+    "Taxed as income but must repay gross amount"
+  ],
+  "non_compete_analysis": {
+    "duration": "12 months post-employment",
+    "geographic_scope": "Entire United States (very broad)",
+    "restrictions": [
+      "Cannot work for or provide services to any competitor",
+      "Cannot solicit Company customers or prospects",
+      "Cannot encourage employees to leave"
+    ],
+    "competitor_definition": "Companies providing competing software platforms (somewhat vague)",
+    "enforceability": "Texas courts generally enforce reasonable non-competes for employees with access to confidential information",
+    "impact": "May limit employment options for 1 year after leaving"
+  ],
+  "non_solicitation_analysis": {
+    "duration": "18 months (longer than non-compete)",
+    "employee_solicitation": "Cannot recruit any Company employees or contractors",
+    "customer_solicitation": "Cannot solicit customers or prospects",
+    "relationship_interference": "Cannot interfere with supplier or partner relationships",
+    "assessment": "Broadly worded and 18 months is long"
+  },
+  "ip_assignment_concerns": [
+    "Assigns all work product created during employment",
+    "Includes inventions created outside work hours if:",
+    "- Relates to Company's business",
+    "- Results from Company work",
+    "- Uses Company resources or info",
+    "Very broad scope could capture side projects",
+    "Can list prior inventions to exclude (Exhibit A)",
+    "Must assist with patents/copyrights at Company expense",
+    "California employees have stronger protections (CA Labor Code 2870), but this is Texas"
+  ],
+  "confidentiality_concerns": [
+    "Covers source code, algorithms, technical architecture",
+    "Business strategies, financial data, customer info",
+    "Product roadmaps and unreleased features",
+    "Employee and salary information",
+    "Survives employment termination indefinitely (perpetual)",
+    "No time limit on confidentiality obligations",
+    "Breach could result in injunctive relief and damages"
+  ],
+  "termination_and_severance": [
+    "At-will employment (either party can terminate anytime)",
+    "Company provides 2 weeks notice or pay in lieu (unless for cause)",
+    "Severance if terminated without cause: 4 weeks salary + 1 month health insurance",
+    "Severance conditional on signing separation agreement and release",
+    "4 weeks severance = $11,154 (minimal)",
+    "No severance if terminated for cause or if Employee resigns",
+    "Unvested equity forfeited upon termination"
+  ],
+  "for_cause_termination": [
+    "Material breach of Agreement",
+    "Misconduct, dishonesty, or policy violations",
+    "Unsatisfactory performance after warnings",
+    "Felony conviction",
+    "Unauthorized disclosure of confidential information",
+    "Broad definition gives Company significant discretion",
+    "No severance if terminated for cause"
+  ],
+  "outside_activities_restrictions": [
+    "Must obtain written approval for:",
+    "- Outside employment or consulting",
+    "- Service on boards of directors (except non-profits)",
+    "- Investments in competing businesses (>1% ownership)",
+    "Limits ability to earn additional income",
+    "Side projects may require approval if related to Company business"
+  ],
+  "on_call_requirements": [
+    "On-call rotation approximately 1 week per month",
+    "No additional compensation mentioned for on-call duty",
+    "Could require evening/weekend availability",
+    "Production support responsibilities"
+  ],
+  "benefits_assessment": {
+    "health_insurance": "Company pays 80% (employee pays 20%)",
+    "401k_match": "4% (good)",
+    "pto": "15 days (average for tech)",
+    "holidays": "10 days (standard)",
+    "sick_leave": "5 days (separate from PTO)",
+    "parental_leave": "12 weeks paid (excellent)",
+    "life_insurance": "1x base salary ($145K)",
+    "disability": "Short and long-term coverage",
+    "overall": "Competitive benefits package"
+  ],
+  "dispute_resolution": [
+    "Binding arbitration in Austin, TX",
+    "AAA Employment Rules",
+    "Each party bears own costs",
+    "Arbitrator may award attorney fees to prevailing party",
+    "Company can seek injunctive relief in court for confidentiality/non-compete breaches",
+    "Waives right to jury trial and class actions"
+  ],
+  "hybrid_work_concerns": [
+    "3 days in office, 2 days remote",
+    "Company could change policy requiring more office days",
+    "Home office stipend only $1K/year",
+    "Must maintain appropriate home office setup"
+  ],
+  "financial_risk_estimate": {
+    "sign_on_bonus_repayment_risk": "Up to $15,000 if leave within 12 months",
+    "unvested_equity_at_risk": "Value depends on company; could be $0-100K+",
+    "opportunity_cost_from_non_compete": "$50,000-150,000 (12 months limited employment options)",
+    "total_risk": "$65,000-265,000 depending on equity value and when leave"
+  },
+  "recommendation": "SIGN WITH AWARENESS",
+  "rationale": "This is a fairly standard employment agreement for a senior software engineer role. The compensation package is competitive ($145K base + bonus + equity + benefits), and the at-will nature allows either party to terminate. The main concerns are the 12-month US-wide non-compete, 18-month non-solicitation, perpetual confidentiality, and broad IP assignment. The sign-on bonus creates a 1-year golden handcuff. The 4-week severance is minimal but typical for at-will employment. Overall, the terms are market-standard for Texas tech employment.",
+  "negotiation_points": [
+    "Try to narrow non-compete geographic scope or reduce to 6 months",
+    "Reduce non-solicitation from 18 to 12 months",
+    "Clarify competitor definition more specifically",
+    "Negotiate higher severance (2-3 months instead of 4 weeks)",
+    "Add accelerated vesting if terminated without cause",
+    "Clarify IP assignment exclusions (e.g., truly independent side projects)",
+    "Request sign-on bonus forgiveness schedule (e.g., 1/12 per month instead of pro-rata)",
+    "Negotiate guaranteed bonus percentage instead of discretionary",
+    "Request more PTO (18-20 days for senior level)"
+  ],
+  "acceptable_for": "Software engineers comfortable with standard tech employment terms, seeking stable employment with growth company, willing to commit for 12+ months"
+}

@@ -1,0 +1,157 @@
+{
+  "contract_id": "VSA-2025-001-HR",
+  "risk_score": 7,
+  "risk_level": "High Risk",
+  "category": "Vendor/Supplier Agreement",
+  "contract_value": "$800,000-1,200,000 annually ($2.4M-3.6M over 3 years)",
+  "jurisdiction": "Michigan",
+  "critical_issues": [
+    "3-year initial term with 180-day termination notice requirement",
+    "Auto-renewal for 1-year terms with 120-day notice (4 months)",
+    "$50,000 minimum quarterly commitment ($200,000/year)",
+    "Buyer may source from alternate supplier and charge price difference for late delivery",
+    "24-month warranty period for manufacturing components is long",
+    "Supplier liable for product defects causing injury (could be catastrophic)",
+    "Buyer indemnifies Supplier for finished product claims except Supplier defects",
+    "Joint ownership of improvements creates IP complications",
+    "Net 60-day payment terms (Supplier finances Buyer's operations for 2 months)",
+    "FOB Supplier's facility means Buyer bears shipping risk"
+  ],
+  "strengths": [
+    "Liability capped at 12 months fees ($800K-1.2M depending on volume)",
+    "Mutual indemnification with appropriate scope division",
+    "Force majeure with 90-day termination right",
+    "180-day termination notice provides planning time",
+    "Price increases capped at 8% annually with 90-day notice",
+    "Right to inspect Supplier facilities twice annually",
+    "Tooling owned by Buyer (important for sourcing flexibility)",
+    "Prevailing party recovers attorney fees",
+    "2% early payment discount available"
+  ],
+  "supplier_perspective_risks": [
+    "Net 60-day payment creates significant cash flow burden",
+    "Liability cap still exposes Supplier to $800K-1.2M",
+    "$5M product liability insurance required (costs $10K-30K annually)",
+    "Buyer can source alternate suppliers and charge difference if 14+ days late",
+    "Must maintain ISO 9001 certification (costs $15K-30K annually)",
+    "Exclusive supplier status but no volume guarantee",
+    "Joint IP ownership on improvements limits future use",
+    "Buyer owns all tooling despite Supplier storing it",
+    "24-month warranty is long for manufactured components"
+  ],
+  "buyer_perspective_risks": [
+    "$50,000 minimum quarterly commitment ($200K/year)",
+    "3-year lock-in with 180-day (6-month) termination notice",
+    "Auto-renewal with 120-day notice requirement (easy to miss)",
+    "Indemnifies Supplier for finished product claims",
+    "FOB Supplier means Buyer pays shipping and bears transit risk",
+    "Only 10 business days for inspection (tight for complex components)",
+    "Price increases up to 8% annually (compounds over 3 years)",
+    "6-8 week lead time may be inadequate for JIT manufacturing"
+  ],
+  "warranty_analysis": {
+    "duration": "24 months from delivery",
+    "scope": "Free from defects in materials and workmanship, meets specifications",
+    "remedy": "Repair or replacement at Supplier's option (Supplier controls remedy)",
+    "return_shipping": "Supplier pays for defective returns",
+    "assessment": "24 months is long for automotive components; creates extended liability exposure"
+  },
+  "indemnification_analysis": {
+    "supplier_indemnifies": [
+      "Product defects causing injury or property damage",
+      "Non-compliance with specifications",
+      "IP infringement",
+      "Breach of warranties"
+    ],
+    "buyer_indemnifies": [
+      "Buyer's product designs",
+      "Buyer's specifications",
+      "Buyer's finished products (except Supplier defects)",
+      "Buyer's use/misuse"
+    ],
+    "assessment": "Reasonably balanced but Supplier's product liability exposure is significant",
+    "concern": "Determining whether injury stems from Supplier defect vs. Buyer design could be litigious"
+  ],
+  "payment_terms_analysis": {
+    "net_terms": "60 days (Supplier finances Buyer for 2 months)",
+    "early_payment_discount": "2% if paid within 10 days",
+    "late_payment": "1.5% monthly (18% APR) + suspension right",
+    "quarterly_minimum": "$50,000",
+    "annual_minimum": "$200,000",
+    "cash_flow_impact": "Supplier must carry $100,000-200,000 in receivables",
+    "assessment": "Net 60 is aggressive; standard for large buyers but burdensome for suppliers"
+  ],
+  "quality_control_requirements": [
+    "ISO 9001:2015 certification mandatory",
+    "First article inspection required",
+    "Buyer inspection rights twice annually with 14 days notice",
+    "30-day corrective action deadline or termination",
+    "10-day inspection period after delivery",
+    "Assessment: Rigorous QC appropriate for automotive but creates compliance burden"
+  ],
+  "delivery_and_logistics": [
+    "6-8 week lead time",
+    "FOB Supplier's facility (Buyer pays shipping and bears risk)",
+    "Late delivery penalty: Buyer may source alternate and charge difference",
+    "Assessment: FOB terms favor Supplier but late delivery penalty is punitive"
+  ],
+  "ip_and_tooling": [
+    "Buyer retains all IP in drawings and specifications",
+    "Buyer owns custom tooling (Supplier stores it)",
+    "Improvements are jointly owned (complicated)",
+    "Upon termination, Supplier ships tooling at Buyer's expense",
+    "Assessment: Joint IP ownership on improvements will cause disputes; should be clearer"
+  ],
+  "termination_provisions": [
+    "Either party: 180 days notice (6 months)",
+    "For cause: 30-day cure period",
+    "Buyer may place 6-month inventory orders during wind-down",
+    "Auto-renewal requires 120-day notice to prevent",
+    "Assessment: Long notice periods create inflexibility"
+  ],
+  "insurance_requirements": {
+    "general_liability": "$2,000,000",
+    "product_liability": "$5,000,000",
+    "workers_comp": "Statutory",
+    "estimated_cost": "$15,000-40,000 annually",
+    "assessment": "$5M product liability reflects automotive industry risks"
+  },
+  "compliance_burdens": [
+    "All applicable laws (environmental, labor, safety)",
+    "Conflict minerals certification (DRC conflict-free)",
+    "Export controls compliance",
+    "ISO 9001 maintenance",
+    "Annual certificate updates"
+  ],
+  "financial_risk_estimate": {
+    "supplier_perspective": {
+      "liability_exposure": "$800,000-1,200,000 (capped)",
+      "product_liability_risk": "Potentially millions if components cause injuries",
+      "insurance_costs": "$15,000-40,000/year ($45K-120K over 3 years)",
+      "iso_certification": "$15,000-30,000/year ($45K-90K over 3 years)",
+      "cash_flow_burden": "$100,000-200,000 in receivables at any time",
+      "total_risk": "$1,000,000-2,000,000+"
+    },
+    "buyer_perspective": {
+      "minimum_commitment": "$600,000 over 3 years",
+      "potential_spending": "$2.4M-3.6M over 3 years",
+      "indemnification_exposure": "Unlimited for finished product claims",
+      "termination_inflexibility": "6-month notice requirement",
+      "total_risk": "$600,000-unlimited depending on product liability"
+    }
+  },
+  "recommendation": "NEGOTIATE",
+  "rationale": "This contract has balanced elements but several problematic provisions. The 24-month warranty, net 60-day payment terms, joint IP ownership, and significant product liability exposure create risk. The 3-year term with 180-day termination notice and 120-day auto-renewal notice requirements create inflexibility. However, liability caps, mutual indemnification structure, and force majeure protections are reasonable.",
+  "required_changes": [
+    "Reduce warranty period to 12-18 months for automotive components",
+    "Improve payment terms to net 45 days (compromise from 60)",
+    "Clarify IP ownership - either Buyer owns improvements or they remain with creator",
+    "Reduce termination notice from 180 to 90 days",
+    "Reduce auto-renewal notice from 120 to 60 days",
+    "Add volume commitments or forecasts if Supplier is 'exclusive'",
+    "Clarify inspection procedures and acceptance criteria",
+    "Add liability allocation for defect vs. design causation",
+    "Increase early payment discount to 3% for net 10 to incentivize faster payment"
+  ],
+  "acceptable_for": "Established suppliers with strong cash flow, adequate insurance, ISO certification, and experience in automotive industry"
+}

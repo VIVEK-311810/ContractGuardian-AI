@@ -1,0 +1,47 @@
+{
+  "contract_id": "APT-ATX-2025-002-HR",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$2,400/month ($43,200 over 18 months)",
+  "jurisdiction": "Texas (Travis County)",
+  "critical_issues": [
+    "$4,800 security deposit (2 months) - substantial",
+    "$500 non-refundable pet deposit per pet",
+    "$200 minimum cleaning fee deducted from deposit",
+    "Early termination requires 2 months rent + forfeit all deposit ($7,200 total)",
+    "$10/day late fee accumulates quickly ($300/month if 30 days late)",
+    "$60/month total pet rent for 2 pets ($1,080 over lease)",
+    "14-day guest limit restrictive",
+    "No cure period mentioned for some defaults"
+  ],
+  "strengths": [
+    "18-month term is shorter than 24-month leases",
+    "Early termination option available (though expensive)",
+    "5-day cure notice for defaults",
+    "48-hour inspection notice",
+    "Reasonable maintenance split",
+    "2 parking spots included",
+    "30-day deposit return timeline",
+    "6% rent increase cap"
+  ],
+  "financial_risk_estimate": {
+    "total_rent": "$43,200 (18 months)",
+    "security_deposit": "$4,800",
+    "pet_deposits": "$1,000 (non-refundable)",
+    "pet_rent": "$1,080 total",
+    "early_termination_cost": "$7,200 (2 months + deposit)",
+    "potential_fees": "$200-1,000 (cleaning, damages)",
+    "total_risk": "$50,000-52,000"
+  },
+  "recommendation": "NEGOTIATE",
+  "rationale": "This lease has some concerning provisions (high early termination penalty, non-refundable pet deposits, minimum cleaning fees) but also positive elements (early termination option, cure period, reasonable term). The $7,200 early termination cost is substantial but at least provides an exit option.",
+  "required_changes": [
+    "Reduce early termination to 1.5 months rent without deposit forfeiture",
+    "Make pet deposits refundable",
+    "Remove minimum cleaning fee ($200)",
+    "Add cure period for all defaults",
+    "Clarify 'normal wear and tear' standards",
+    "Reduce late fees to $75 plus $5/day"
+  ]
+}

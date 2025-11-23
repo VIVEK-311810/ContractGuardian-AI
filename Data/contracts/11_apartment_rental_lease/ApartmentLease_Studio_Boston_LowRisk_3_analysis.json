@@ -1,0 +1,36 @@
+{
+  "contract_id": "APT-BOS-2025-004-LR",
+  "risk_score": 3,
+  "risk_level": "Low Risk",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$1,900/month ($22,800 annually)",
+  "jurisdiction": "Massachusetts (Boston)",
+  "critical_issues": [
+    "Must forfeit security deposit for early exit (unless find replacement)",
+    "Parking costs extra ($150/month = $1,800/year)"
+  ],
+  "strengths": [
+    "12-month standard term",
+    "Security deposit earns interest per MA law",
+    "30-day deposit return with itemized statement",
+    "14-day cure notice before eviction",
+    "48-hour access notice required",
+    "Pet deposit refundable",
+    "No pet rent",
+    "Heat and hot water included",
+    "10-day rent grace period",
+    "Low $25 late fee",
+    "Can find replacement tenant instead of penalty",
+    "Massachusetts tenant protections apply",
+    "Security held in escrow"
+  ],
+  "financial_risk_estimate": {
+    "annual_rent": "$22,800",
+    "upfront": "$3,800 (first + security)",
+    "early_exit": "$1,900 (security forfeit) OR $0 (if find replacement)",
+    "parking": "$1,800/year (optional)",
+    "total_risk": "$23,000-25,000"
+  },
+  "recommendation": "SIGN",
+  "rationale": "Excellent tenant-friendly lease complying with MA law. Interest-bearing security deposit, long cure period, ability to find replacement tenant, and strong state protections make this low-risk. Heat/hot water included is valuable in Boston."
+}

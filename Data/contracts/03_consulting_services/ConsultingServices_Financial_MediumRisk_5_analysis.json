@@ -1,0 +1,34 @@
+{
+  "contract_id": "CSA-2025-003-MR",
+  "risk_score": 5,
+  "risk_level": "Medium Risk",
+  "category": "Consulting Services",
+  "contract_value": "$32,000 fixed + up to $25,000 bonus = $57,000 max",
+  "jurisdiction": "Texas",
+  "critical_issues": [
+    "Success bonus (0.5% of raise) could be substantial if large funding",
+    "Bonus capped at $25,000 but still performance-based risk",
+    "No guarantee of fundraising success (appropriate)",
+    "12-month non-compete with identified competitors",
+    "Liability capped at fees paid including bonus"
+  ],
+  "strengths": [
+    "Reasonable fixed fee structure",
+    "30-day termination by either party",
+    "Pro-rata payment if terminated",
+    "Success bonus aligns incentives",
+    "3-year confidentiality (not perpetual)",
+    "Advisor has E&O insurance",
+    "Limited non-compete (specific competitors only)",
+    "Realistic no-guarantee disclaimer",
+    "Clear deliverables"
+  ],
+  "financial_risk_estimate": {
+    "fixed_fees": "$32,000",
+    "max_bonus": "$25,000",
+    "liability_cap": "$57,000",
+    "total_risk": "$60,000-65,000"
+  },
+  "recommendation": "SIGN",
+  "rationale": "Fair consulting agreement with balanced terms. Success bonus structure aligns interests. Liability cap, termination rights, and realistic disclaimers are appropriate for financial advisory work."
+}

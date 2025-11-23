@@ -1,0 +1,33 @@
+{
+  "contract_id": "CSA-2025-001-HR",
+  "risk_score": 7,
+  "risk_level": "High Risk",
+  "category": "Consulting Services Agreement",
+  "contract_value": "$78,000",
+  "jurisdiction": "Texas",
+  "critical_issues": [
+    "$26,000 upfront payment (33%) before any deliverables",
+    "25% penalty of remaining fee if Client terminates (up to $19,500)",
+    "Liability capped at full contract value ($78,000)",
+    "Overages capped at $15,000 but scope definition may be unclear",
+    "18-month non-solicitation of employees",
+    "Vendor selection responsibility without warranty of vendor performance"
+  ],
+  "strengths": [
+    "Clear phased structure with defined deliverables",
+    "Reasonable 21-day termination notice",
+    "Mutual indemnification",
+    "Liability cap at fees paid",
+    "3-year confidentiality (not perpetual)",
+    "Realistic disclaimers about business results",
+    "Hourly overages have approval cap"
+  ],
+  "recommendation": "NEGOTIATE",
+  "rationale": "The 25% termination fee and $26,000 upfront payment create significant risk. Liability cap of $78,000 exposes consultant to full contract value. However, realistic disclaimers about ROI and vendor performance are good protections.",
+  "required_changes": [
+    "Reduce upfront payment to 20% ($15,600)",
+    "Eliminate or reduce termination penalty to 10%",
+    "Add clearer scope boundaries to prevent overage disputes",
+    "Reduce non-solicitation from 18 to 12 months"
+  ]
+}

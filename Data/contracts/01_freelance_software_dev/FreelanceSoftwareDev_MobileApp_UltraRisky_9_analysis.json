@@ -1,0 +1,214 @@
+{
+  "contract_id": "FSD-2025-002-UR",
+  "risk_score": 9,
+  "risk_level": "Ultra Risky",
+  "category": "Freelance Software Development",
+  "contract_value": "$120,000",
+  "jurisdiction": "California (Los Angeles County)",
+
+  "critical_issues": [
+    "$40,000 non-refundable deposit (33% upfront) at risk if Client terminates",
+    "HIPAA compliance responsibility entirely disclaimed by Developer but required in scope",
+    "No guarantee of app store approval despite being a key deliverable",
+    "Unlimited scope changes billable at $300/hour with no budget cap",
+    "180-day warranty period extremely long for mobile apps with OS updates",
+    "Client responsible for HIPAA compliance but Developer controls architecture",
+    "Third-party API and platform change risks entirely on Developer during warranty",
+    "Wearable device integrations (Apple Watch, Fitbit, Garmin) significantly increase complexity",
+    "In-app purchase system requires ongoing compliance and Apple/Google coordination",
+    "No cap on expense reimbursements - could be substantial for cloud services",
+    "6-month timeline very aggressive for dual-platform native development",
+    "Social features and leaderboards add significant liability and moderation requirements"
+  ],
+
+  "liability_analysis": {
+    "type": "Capped at contract value",
+    "cap_amount": "$120,000",
+    "covers": "All forms of action (contract, tort, negligence, strict liability)",
+    "excluded_damages": [
+      "Indirect, incidental, special, consequential, or punitive damages",
+      "Lost profits, revenues, business opportunities, or goodwill",
+      "Data loss or corruption",
+      "Business interruption or system downtime",
+      "Third-party claims or actions"
+    ],
+    "assessment": "Reasonable liability cap but still exposes Developer to full contract value for any issue"
+  },
+
+  "hipaa_compliance_concerns": [
+    "Scope requires HIPAA-compliant data storage and transmission",
+    "Developer explicitly disclaims HIPAA compliance warranty",
+    "Client solely responsible for HIPAA compliance but doesn't control implementation",
+    "Creates major disconnect between requirements and responsibilities",
+    "Healthcare data breaches can result in $100-$50,000 per violation fines",
+    "Developer indemnification clause requires Client to indemnify for HIPAA violations",
+    "Ambiguous allocation of risk for security breaches",
+    "72-hour breach notification timeline may be insufficient under HIPAA (requires 60 days)"
+  ],
+
+  "ip_concerns": [
+    "Client receives full ownership upon final payment - favorable for Client",
+    "Developer retains rights to pre-existing code and methodologies - standard and reasonable",
+    "Third-party open-source compliance entirely Client's responsibility",
+    "GPL or other copyleft licenses could force open-sourcing",
+    "No warranty regarding third-party license compliance",
+    "Client assumes all risk for license violations after delivery"
+  ],
+
+  "payment_risks": [
+    "$40,000 non-refundable deposit is 33% of total contract value",
+    "If Client terminates, Developer must still deliver work on pro-rata basis",
+    "Expense reimbursements have no cap and could be substantial (AWS, testing devices, etc.)",
+    "Additional work at $300/hour with no budget limit for scope changes",
+    "Client can request modifications 'at any time' creating unlimited scope creep",
+    "No protection if app stores reject the application multiple times",
+    "Payment milestone tied to 'app store approval' which Developer doesn't control"
+  ],
+
+  "app_store_risks": [
+    "No guarantee of App Store or Google Play approval",
+    "Rejections require additional work that 'may be billed at hourly rates'",
+    "Apple and Google frequently change policies without notice",
+    "Health apps face additional scrutiny and requirements",
+    "In-app purchases require compliance with store policies (30% commission)",
+    "Client responsible for app store accounts and compliance",
+    "Social features may trigger additional content moderation requirements",
+    "Wearable integrations require additional certifications and approvals"
+  ],
+
+  "technical_complexity_risks": [
+    "Dual native platform development (iOS and Android) doubles the work",
+    "Wearable device integrations (Apple Watch, Fitbit, Garmin) are complex and fragile",
+    "HealthKit and Google Fit APIs have strict requirements and limitations",
+    "Real-time synchronization across platforms is challenging",
+    "HIPAA compliance adds significant encryption and security overhead",
+    "In-app purchase systems require careful implementation and testing",
+    "Social features (friends, challenges, leaderboards) require backend infrastructure",
+    "Push notifications require separate setup for iOS and Android",
+    "Admin dashboard adds another complete application to scope"
+  ],
+
+  "timeline_concerns": [
+    "6 months for dual-platform native app with backend is very aggressive",
+    "No time allocated for app store review delays (can be weeks)",
+    "Parallel iOS and Android development (weeks 4-17) suggests one person can't do both",
+    "Only 3 weeks for integration and testing is insufficient for complex health app",
+    "Timeline 'subject to change' but no formal change order process",
+    "Client feedback cycles can cause significant delays",
+    "Third-party API dependencies outside Developer control"
+  ],
+
+  "warranty_concerns": [
+    "180-day warranty period is very long for mobile applications",
+    "iOS and Android release major updates every year that break compatibility",
+    "Developer warrants 'substantially conform' which is vague",
+    "No warranty for third-party API changes (HealthKit, Fitbit, etc.) but must fix issues",
+    "Warranty covers 'material defects' but definition unclear",
+    "Post-launch support obligation includes bug fixes for 6 months",
+    "Wearable device integrations can break with firmware updates"
+  ],
+
+  "indemnification_analysis": {
+    "structure": "Mutual indemnification",
+    "developer_indemnifies_for": [
+      "Breach of Agreement",
+      "Negligence or willful misconduct",
+      "Violation of applicable laws"
+    ],
+    "client_indemnifies_for": [
+      "Content and data provided by Client",
+      "Client's use of the Application",
+      "Client's business practices",
+      "Healthcare regulatory compliance (HIPAA, FDA)",
+      "End user claims (health advice, medical accuracy, harm)"
+    ],
+    "assessment": "Reasonably balanced with Client taking most health-related liability"
+  },
+
+  "termination_risks": [
+    "Either party can terminate with 30 days notice (reasonable)",
+    "Client pays pro-rated amount for work completed (fair)",
+    "Developer delivers work completed through termination (standard)",
+    "$40,000 non-refundable deposit could be at risk if termination is early",
+    "15-day cure period for material breach is short",
+    "No explicit kill fee or early termination penalty"
+  ],
+
+  "data_protection_concerns": [
+    "Developer implements 'commercially reasonable' security - vague standard",
+    "Client responsible for GDPR, CCPA, HIPAA compliance",
+    "72-hour breach notification may be inadequate (HIPAA requires 60 days to HHS)",
+    "Health data is highly sensitive and regulated",
+    "State laws vary on health data protection requirements",
+    "No specific security controls or audit rights defined",
+    "Developer disclaims responsibility but users will likely sue both parties"
+  ],
+
+  "scope_change_risks": [
+    "Client may request modifications 'at any time'",
+    "Additional work billed at $300/hour with no cap",
+    "No formal change order process defined",
+    "Scope creep could easily double the project cost",
+    "Original $120,000 budget could balloon to $200,000+",
+    "No mutual agreement required for scope additions"
+  ],
+
+  "expense_reimbursement_risks": [
+    "No cap on reimbursable expenses",
+    "AWS/Azure costs for health app could be $500-2,000/month",
+    "Testing devices (multiple iPhones, iPads, Android phones, watches) = $5,000-10,000",
+    "Third-party API subscriptions (Fitbit, Garmin) could be expensive",
+    "App store expedite fees can be hundreds of dollars per submission",
+    "7-day reimbursement timeline is very short for Client",
+    "Total expenses could easily reach $15,000-30,000"
+  },
+
+  "financial_risk_estimate": {
+    "contract_value": "$120,000",
+    "non_refundable_deposit_at_risk": "$40,000",
+    "estimated_expenses": "$15,000 - $30,000",
+    "potential_scope_creep": "$50,000 - $100,000 (at $300/hour)",
+    "liability_exposure": "$120,000 (capped)",
+    "hipaa_violation_fines": "$100 - $50,000 per violation (potentially millions)",
+    "total_estimated_risk": "$200,000 - $500,000+",
+    "probability_of_issues": "High due to technical complexity and regulatory requirements"
+  },
+
+  "recommendation": "NEGOTIATE",
+
+  "rationale": "This contract has a reasonable liability cap ($120,000) and mutual termination rights, making it less dangerous than a 10/10 contract. However, the HIPAA compliance disconnect is extremely problematic - the scope requires HIPAA compliance but Developer disclaims all responsibility for it. The $40,000 non-refundable deposit, unlimited scope changes at $300/hour, 180-day warranty, and no app store approval guarantee create significant financial risk. The technical complexity (dual native platforms, wearables, health data, social features) makes the 6-month timeline unrealistic. With proper negotiations, this could become acceptable.",
+
+  "required_changes_to_accept": [
+    "Clarify HIPAA responsibilities - either Developer warrants compliance and charges appropriately, or remove HIPAA requirement from scope",
+    "Reduce non-refundable deposit to 20% ($24,000) or make partially refundable",
+    "Cap expense reimbursements at $20,000 with Client pre-approval for amounts above $5,000",
+    "Establish formal change order process requiring mutual agreement and budget adjustments",
+    "Cap additional work at $50,000 beyond original scope",
+    "Reduce warranty period to 90 days for mobile apps due to frequent OS updates",
+    "Add provisions for app store rejections - Developer makes 2 good-faith attempts, then Client can hire others",
+    "Exclude third-party API/platform changes from warranty obligations",
+    "Add realistic timeline buffer (8-9 months instead of 6)",
+    "Define 'material defects' and 'substantially conform' more precisely",
+    "Add mutual indemnification for security breaches based on fault",
+    "Clarify that wearable device integration is best-effort due to third-party dependencies"
+  ],
+
+  "deal_breakers": [
+    "If Client refuses to clarify HIPAA responsibility allocation",
+    "If Client insists on unlimited scope changes without budget adjustments",
+    "If expense reimbursements cannot be capped",
+    "If non-refundable deposit exceeds $30,000"
+  ],
+
+  "strengths_of_contract": [
+    "Reasonable liability cap at contract value",
+    "Mutual indemnification structure",
+    "Client assumes most healthcare regulatory risk",
+    "Either party can terminate with 30 days notice",
+    "Pro-rated payment upon termination",
+    "IP transfers to Client upon payment (clean ownership)",
+    "Developer retains rights to pre-existing code (reasonable)",
+    "Force majeure clause protects against uncontrollable events",
+    "Mutual confidentiality with reasonable 3-year term"
+  ]
+}

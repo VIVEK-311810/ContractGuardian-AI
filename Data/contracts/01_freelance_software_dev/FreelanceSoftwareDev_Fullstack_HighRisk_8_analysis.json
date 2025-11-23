@@ -1,0 +1,206 @@
+{
+  "contract_id": "FSD-2025-004-HR",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "Freelance Software Development",
+  "contract_value": "$65,000",
+  "jurisdiction": "Ontario, Canada",
+
+  "critical_issues": [
+    "$20,000 non-refundable upfront payment (31% of total value)",
+    "Cross-border contract with Canadian client creates tax and legal complexity",
+    "90-day warranty period for full-stack platform with many dependencies",
+    "No uptime or performance guarantees but real-time features required",
+    "Scope changes billable at $200/hour with no budget cap",
+    "Liability cap at $65,000 exposes Developer to full contract value",
+    "10-business-day cure period for termination is short",
+    "Dispute resolution in Developer's jurisdiction but governed by Ontario law creates confusion",
+    "Data protection compliance (GDPR, CCPA) entirely Client's responsibility despite Developer building system"
+  ],
+
+  "liability_analysis": {
+    "type": "Capped at contract value",
+    "cap_amount": "$65,000",
+    "assessment": "Exposes Developer to 100% of contract value for any liability",
+    "excluded_damages": [
+      "Indirect, consequential, incidental, special, or punitive",
+      "Lost profits and business interruption",
+      "Data loss"
+    ],
+    "note": "Reasonable exclusions but cap is still full contract value"
+  },
+
+  "cross_border_concerns": [
+    "Client is Canadian company, Developer location not specified",
+    "Governed by Ontario, Canada law",
+    "Disputes litigated in Developer's jurisdiction (contradiction if Developer not in Ontario)",
+    "Currency is USD but Client is Canadian (exchange rate risk)",
+    "Potential withholding tax issues on payments from Canada",
+    "Developer may need to register for Canadian GST/HST",
+    "Contract enforcement across borders can be expensive",
+    "Canadian privacy laws (PIPEDA) may apply differently than US"
+  ],
+
+  "payment_risks": [
+    "$20,000 non-refundable deposit (31%) before any work delivered",
+    "If Client terminates early, deposit is lost",
+    "Payment milestones reasonably tied to deliverables",
+    "Net 10 day payment terms are aggressive for $20,000 invoices",
+    "Late payment penalty of 24% APR is reasonable deterrent",
+    "Scope changes at $200/hour with no cap could inflate costs significantly",
+    "Completed milestone payments non-refundable even if project cancelled"
+  ],
+
+  "technical_complexity_risks": [
+    "Full-stack development with React, TypeScript, Node.js, PostgreSQL, Redis",
+    "Real-time features (WebSockets) add complexity and potential failure points",
+    "Interactive data visualization with D3.js/Chart.js requires significant frontend expertise",
+    "Survey system with complex logic for creation, distribution, and response collection",
+    "Email notification system could face deliverability issues",
+    "File processing (CSV, Excel) can have many edge cases and errors",
+    "Scheduled jobs require reliable infrastructure and monitoring",
+    "AWS deployment with multiple services (EC2, RDS, S3) increases complexity"
+  ],
+
+  "timeline_concerns": [
+    "4 months (16 weeks) for full-stack platform is aggressive",
+    "Only 2 weeks for requirements and design (likely insufficient)",
+    "5 weeks for frontend with React, TypeScript, D3.js, WebSockets (tight)",
+    "5 weeks for backend API, database, Redis, email, file processing (very tight)",
+    "Only 2 weeks for integration and testing (insufficient for complex platform)",
+    "No buffer for unexpected issues or scope changes",
+    "Developer not liable for delays from Client feedback or technical issues",
+    "Timeline adjustment requires mutual agreement (good protection)"
+  ],
+
+  "warranty_concerns": [
+    "90-day warranty for full-stack platform with many third-party dependencies",
+    "Must fix defects in Developer's code for 90 days post-launch",
+    "No warranty for error-free operation (realistic)",
+    "No warranty for specific performance metrics despite real-time features",
+    "No warranty for future technology compatibility",
+    "Warranty excludes Client-caused issues and third-party problems"
+  ],
+
+  "data_protection_risks": [
+    "Client responsible for GDPR and CCPA compliance",
+    "Developer builds the system but doesn't warrant compliance",
+    "Survey platform likely collects personal data requiring compliance",
+    "Developer must notify Client of breaches within 48 hours",
+    "GDPR requires 72-hour notification to authorities (tighter than contract)",
+    "Client handles regulatory notifications but may blame Developer",
+    "Security measures defined as 'reasonable' which is vague"
+  ],
+
+  "support_limitations": [
+    "90 days of included support (3 months)",
+    "Only bug fixes for Developer's code included",
+    "48-hour response for critical issues (not resolution time)",
+    "5 business days for non-critical issues",
+    "Feature enhancements not included",
+    "Third-party service issues excluded",
+    "Infrastructure scaling excluded",
+    "Post-warranty maintenance $3,500/month ($42,000/year)"
+  ],
+
+  "ip_concerns": [
+    "Full IP transfer to Client upon final payment (good for Client)",
+    "Developer retains pre-existing code and tools (reasonable)",
+    "Client gets perpetual license to Developer's pre-existing materials",
+    "Open-source usage allowed except GPL/AGPL without approval",
+    "Client responsible for ongoing license compliance",
+    "Clean IP allocation structure"
+  ],
+
+  "indemnification_analysis": {
+    "structure": "Mutual with carve-outs",
+    "developer_indemnifies_for": [
+      "IP infringement (capped at $65,000)",
+      "Developer's breach, negligence, or law violations"
+    ],
+    "client_indemnifies_for": [
+      "Content and data",
+      "Business practices",
+      "End-user disputes",
+      "Regulatory compliance"
+    ],
+    "assessment": "Reasonably balanced with Client taking data/regulatory risk"
+  },
+
+  "termination_risks": [
+    "Either party can terminate with 15 days notice before work begins",
+    "After work begins, need material breach + 10 day cure",
+    "10-day cure period is short for complex technical issues",
+    "Completed milestone payments are non-refundable",
+    "$20,000 deposit at risk if termination occurs early in project",
+    "Client pays pro-rata for work in progress (reasonable)"
+  ],
+
+  "acceptance_testing": [
+    "10 business days for testing (2 weeks)",
+    "Acceptance criteria reasonably defined",
+    "Automatic acceptance if no rejection within 10 days",
+    "Must reject in writing with detailed defect list",
+    "Developer must remedy material defects at no charge",
+    "Definition of 'material defects' vs minor issues could be disputed"
+  ],
+
+  "dispute_resolution_confusion": [
+    "Governed by Ontario, Canada law",
+    "Disputes litigated in 'Developer's jurisdiction'",
+    "If Developer not in Ontario, creates conflict",
+    "Should specify exact jurisdiction for litigation",
+    "Cross-border litigation can be very expensive",
+    "Mediation required before litigation (cost-saving provision)"
+  ],
+
+  "financial_risk_estimate": {
+    "contract_value": "$65,000",
+    "non_refundable_deposit": "$20,000",
+    "liability_exposure": "$65,000 (capped)",
+    "potential_scope_creep": "$20,000 - $40,000 (at $200/hour)",
+    "aws_infrastructure_costs": "$2,000 - $5,000 during development",
+    "cross_border_tax_complications": "$1,000 - $3,000 (accountant fees)",
+    "total_estimated_risk": "$90,000 - $150,000"
+  },
+
+  "recommendation": "NEGOTIATE",
+
+  "rationale": "This contract has reasonable protections (liability cap, mutual indemnification, appropriate warranty exclusions) but significant concerns remain. The $20,000 non-refundable deposit (31%) is high, the cross-border nature adds tax and legal complexity, and the 4-month timeline is aggressive for the scope. The 90-day warranty period is long, and the scope change provisions allow unlimited additions at $200/hour. The dispute resolution clause is confusing (Ontario law but Developer's jurisdiction). With modifications, this could be acceptable.",
+
+  "required_changes_to_accept": [
+    "Reduce non-refundable deposit to 15-20% ($10,000-$13,000)",
+    "Clarify dispute resolution jurisdiction - should match governing law (Ontario)",
+    "Add cap on scope change work ($20,000 additional maximum)",
+    "Reduce warranty period to 60 days",
+    "Extend timeline to 5 months (20 weeks) with 2-week buffer",
+    "Extend cure period from 10 to 15 days",
+    "Clarify tax responsibilities (who pays withholding, GST/HST)",
+    "Define 'material defects' more precisely",
+    "Extend acceptance testing to 15 business days (3 weeks)",
+    "Add provision that AWS infrastructure costs are reimbursable or included in fee",
+    "Specify that real-time features are 'best effort' due to complexity",
+    "Add milestone for 'substantial completion' before final $10,000 payment"
+  ],
+
+  "deal_breakers": [
+    "If Client insists on keeping $20,000 non-refundable deposit",
+    "If cross-border tax issues cannot be clarified",
+    "If scope change cap cannot be negotiated",
+    "If timeline cannot be extended to realistic 5-6 months"
+  ],
+
+  "strengths_of_contract": [
+    "Liability capped at contract value with appropriate exclusions",
+    "Mutual indemnification with balanced responsibilities",
+    "IP transfers cleanly to Client with Developer retaining tools",
+    "Realistic warranty disclaimers (no error-free guarantee)",
+    "Pro-rata payment upon termination",
+    "Client takes data protection compliance responsibility",
+    "Developer not liable for delays from Client or technical issues",
+    "Timeline adjustments require mutual agreement",
+    "3-year confidentiality term (not perpetual)",
+    "Force majeure protection",
+    "Mediation before litigation (cost control)"
+  ]
+}

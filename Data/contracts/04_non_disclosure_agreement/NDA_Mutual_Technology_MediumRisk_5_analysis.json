@@ -1,0 +1,26 @@
+{
+  "contract_id": "NDA-2025-001-MR",
+  "risk_score": 5,
+  "risk_level": "Medium Risk",
+  "category": "Non-Disclosure Agreement",
+  "contract_value": "N/A (NDA only)",
+  "jurisdiction": "California",
+  "critical_issues": [
+    "Trade secrets protected indefinitely",
+    "Broad definition of Confidential Information",
+    "Cannot reverse engineer disclosed technology",
+    "Injunctive relief available without proving damages",
+    "Must limit access to need-to-know personnel"
+  ],
+  "strengths": [
+    "Mutual obligations (both parties bound equally)",
+    "Reasonable 2-year survival after termination (except trade secrets)",
+    "Clear exclusions for public information",
+    "No obligation to proceed with business relationship",
+    "Standard remedy provisions",
+    "Can disclose if required by law with notice",
+    "3-year term with defined end date"
+  ],
+  "recommendation": "SIGN",
+  "rationale": "This is a balanced, standard mutual NDA appropriate for preliminary discussions. Both parties have equal obligations, the term is reasonable (3 years with 2-year survival), and exclusions are fair. The indefinite trade secret protection is standard under law. No unusual or one-sided provisions."
+}

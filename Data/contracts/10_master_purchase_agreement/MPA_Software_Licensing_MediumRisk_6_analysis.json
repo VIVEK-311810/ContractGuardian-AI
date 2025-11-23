@@ -1,0 +1,30 @@
+{
+  "contract_id": "MPA-2025-001-MR",
+  "risk_score": 6,
+  "risk_level": "Medium Risk",
+  "category": "Master Purchase Agreement",
+  "contract_value": "Variable based on purchase orders",
+  "jurisdiction": "Washington State",
+  "critical_issues": [
+    "3-year term with 90-day notice for non-renewal (auto-renews annually after)",
+    "Subscription licenses auto-renew with 60-day notice",
+    "Liability capped at 12 months fees per product/service",
+    "90-day software warranty is short for enterprise software",
+    "Net 45-day payment terms",
+    "Annual maintenance costs 20% of license fee (ongoing expense)",
+    "Seller may reject POs within 5 days (no guaranteed acceptance)",
+    "License restrictions prevent modifications or service bureau use"
+  ],
+  "strengths": [
+    "Master agreement framework provides purchasing flexibility",
+    "15-day acceptance period for testing",
+    "Reasonable liability cap with standard exclusions",
+    "Work product from services becomes Buyer's property",
+    "Perpetual licenses survive MPA termination",
+    "Mutual confidentiality with 3-year term",
+    "Volume discounts available",
+    "90-day price guarantee on quotes"
+  ],
+  "recommendation": "SIGN",
+  "rationale": "Standard master purchase agreement with balanced terms. Provides framework for ongoing software purchases with reasonable protections for both parties. Liability caps, warranty periods, and payment terms are industry-standard."
+}

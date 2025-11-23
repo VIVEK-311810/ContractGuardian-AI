@@ -1,0 +1,35 @@
+{
+  "contract_id": "APT-NYC-2025-001-UR",
+  "risk_score": 10,
+  "risk_level": "Ultra Risky",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$2,800/month ($67,200 over 24 months)",
+  "jurisdiction": "New York",
+  "critical_issues": [
+    "24-month initial term with 90-day non-renewal notice (easy to miss)",
+    "Auto-renewal for 12-month terms (perpetual lock-in risk)",
+    "$8,400 security deposit (3 months) - excessive and largely non-refundable",
+    "Liable for ALL remaining rent if vacate early (up to $67,200)",
+    "$3,000 early termination fee on top of remaining rent",
+    "8% annual rent increases allowed",
+    "Security deposit 'non-refundable' for any damage (Landlord sole discretion)",
+    "Tenant liable for repairs under $200 (adds up quickly)",
+    "Unlimited liability for all injuries and claims",
+    "$500 fine per rule violation, 3 violations = eviction",
+    "No cure period for defaults - immediate eviction",
+    "Tenant pays all Landlord legal fees if any dispute",
+    "Cannot withhold rent for ANY reason (even uninhabitable conditions)",
+    "No pets, no guests over 7 days, no subletting (very restrictive)"
+  ],
+  "financial_risk_estimate": {
+    "total_rent_commitment": "$67,200 (24 months)",
+    "security_deposit_at_risk": "$8,400",
+    "early_termination_exposure": "$70,200 (remaining rent + $3,000 fee)",
+    "potential_rent_increases": "$2,688/year (8% annual)",
+    "violation_fines": "$500 per violation (unlimited)",
+    "repair_costs": "$200 per incident (tenant responsibility)",
+    "total_risk": "$80,000-150,000"
+  },
+  "recommendation": "REJECT",
+  "rationale": "This lease is extremely tenant-unfavorable with excessive security deposit, auto-renewal trap, unlimited liability for remaining rent, and no tenant protections. The security deposit terms may violate NYC laws. Immediate eviction without cure period and prohibition on rent withholding are unreasonable."
+}

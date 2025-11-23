@@ -1,0 +1,43 @@
+{
+  "contract_id": "APT-SEA-2025-003-MR",
+  "risk_score": 5,
+  "risk_level": "Medium Risk",
+  "category": "Apartment/Rental Lease",
+  "contract_value": "$2,200/month ($26,400 annually)",
+  "jurisdiction": "Washington (Seattle)",
+  "critical_issues": [
+    "First and last month due at signing ($4,400 upfront)",
+    "Early termination penalty of 1 month rent ($2,200)",
+    "$25/month pet rent ($300 over year)",
+    "Landlord can terminate with 60 days notice if selling/family move",
+    "Repairs under $100 are tenant responsibility"
+  ],
+  "strengths": [
+    "12-month term (standard, not excessive)",
+    "Security deposit only 1 month (reasonable)",
+    "21-day deposit return per WA law",
+    "Pet deposit is refundable",
+    "48-hour inspection notice with 2/year max",
+    "10-day cure period for defaults",
+    "Early termination option available",
+    "No guest day limits",
+    "Washington tenant protections apply",
+    "Landlord pays water, sewer, garbage, heat",
+    "5-day grace period for rent"
+  ],
+  "financial_risk_estimate": {
+    "annual_rent": "$26,400",
+    "upfront_costs": "$6,600 (first, last, security)",
+    "pet_costs": "$600 (deposit + $300 rent/year)",
+    "early_termination": "$2,200 (1 month penalty)",
+    "total_risk": "$27,000-29,000"
+  },
+  "recommendation": "SIGN WITH MINOR NEGOTIATIONS",
+  "rationale": "This is a reasonable, tenant-friendly lease that complies with Washington state tenant protections. The 12-month term, refundable deposits, cure period, and inspection limits are fair. Main concerns are the high upfront cost ($6,600) and landlord's ability to terminate for sale/family.",
+  "suggested_improvements": [
+    "Negotiate to eliminate 'last month rent' requirement",
+    "Add relocation assistance if Landlord terminates",
+    "Reduce pet rent to $15/month",
+    "Clarify 'professional cleaning' standards"
+  ]
+}

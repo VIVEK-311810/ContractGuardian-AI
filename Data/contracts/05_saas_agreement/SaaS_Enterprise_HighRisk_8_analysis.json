@@ -1,0 +1,172 @@
+{
+  "contract_id": "SAAS-2025-001-HR",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "SaaS Agreement",
+  "contract_value": "$84,000/year ($252,000 over 3-year term)",
+  "jurisdiction": "Washington State",
+  "critical_issues": [
+    "3-year initial term with no early termination right for Customer",
+    "If Customer terminates early, must pay 100% of remaining contract value (potentially $168,000+)",
+    "Auto-renewal for 1-year terms with 90-day notice requirement",
+    "All fees non-refundable under any circumstances",
+    "Provider may increase fees 10% annually with only 60 days notice",
+    "Provider can access, use, and analyze Customer Data broadly including ML training",
+    "Provider may modify Service features at any time without notice or refund",
+    "Provider may discontinue features with 90 days notice and no refunds",
+    "Only 30 days to export data after termination",
+    "Provider may unilaterally modify terms with 30 days notice",
+    "Liability capped at 12 months fees ($84,000)",
+    "Customer indemnifies Provider for all Customer Data claims",
+    "Customer may not reverse engineer or resell"
+  ],
+  "liability_analysis": {
+    "provider_liability_cap": "$84,000 (12 months fees)",
+    "customer_liability": "Unlimited indemnification for data and usage",
+    "sla_remedy": "Maximum 100% monthly credit (5% per 1% below 99.5%)",
+    "uptime_guarantee": "99.5% (43.8 hours downtime per year allowed)",
+    "excluded_damages": "All consequential, indirect, lost profits, lost data, business interruption",
+    "assessment": "Extremely one-sided favoring Provider"
+  },
+  "early_termination_risk": {
+    "customer_cannot_terminate": "No right to terminate during 3-year term except Provider's material uncured breach",
+    "liquidated_damages": "100% of remaining contract value",
+    "year_1_exposure": "$168,000 (2 years remaining)",
+    "year_2_exposure": "$84,000 (1 year remaining)",
+    "year_3_exposure": "$0-84,000 (depending on timing)",
+    "assessment": "Massive financial risk - essentially locked in for 3 years"
+  },
+  "data_rights_concerns": [
+    "Provider may access and use Customer Data to improve Service",
+    "Provider can create anonymized analytics from Customer Data",
+    "Provider can use data to develop new features and products",
+    "Provider can train ML models on Customer Data",
+    "Provider can generate industry benchmarks using Customer Data",
+    "Data may be transferred internationally",
+    "Only 30 days to export data after termination",
+    "Data deleted after 30-day grace period",
+    "Customer Data could be used to benefit Provider's other customers or products"
+  ],
+  "compliance_risks": [
+    "Customer responsible for ensuring Service meets regulatory requirements",
+    "HIPAA, GDPR, PCI-DSS compliance entirely Customer's responsibility",
+    "Provider only maintains SOC 2 Type II",
+    "Data breach notification to authorities is Customer's responsibility",
+    "If Service doesn't meet Customer's regulatory needs, still locked in for 3 years"
+  ],
+  "service_modification_risks": [
+    "Provider may modify features, functionality, UI at any time without notice",
+    "Provider may discontinue features with 90 days notice",
+    "No refunds for discontinued or modified features",
+    "API changes with 60 days notice may break Customer's integrations",
+    "Customer may need to spend significant resources adapting to changes",
+    "Feature Customer relies on could be removed mid-contract"
+  ],
+  "contract_modification": [
+    "Provider may unilaterally modify terms with 30 days notice",
+    "Continued use constitutes acceptance of new terms",
+    "Customer has no input on changes",
+    "Could materially change obligations or limitations mid-contract"
+  ],
+  "auto_renewal_risk": [
+    "Automatically renews for 1-year terms",
+    "Requires 90 days notice to prevent renewal",
+    "Easy to miss deadline and be locked in another year",
+    "After 3-year term, could be stuck for additional years if notice missed"
+  ],
+  "payment_terms": [
+    "$84,000 annual payment due upfront (or $7,000/month)",
+    "All fees non-refundable regardless of circumstances",
+    "10% annual price increase allowed with only 60 days notice",
+    "Year 1: $84,000, Year 2: $92,400, Year 3: $101,640 (potential total: $278,040)",
+    "Service suspension after 10 days for late payment",
+    "Overage fees for API calls, storage, bandwidth can add significantly"
+  ],
+  "overage_fee_risks": [
+    "API calls over 10K/day: $0.01 per call (could be $3,000+/month for high usage)",
+    "Data storage over 1TB: $100/TB/month",
+    "Bandwidth over 5TB: $50/TB",
+    "Premium support: $200/hour",
+    "No monthly cap on overages"
+  ],
+  "support_limitations": [
+    "Email: 24-hour response (not resolution)",
+    "Phone: Business hours only (9am-5pm PT Mon-Fri)",
+    "No 24/7 support despite 'cloud operations' nature",
+    "No on-site support",
+    "No custom development",
+    "Training limited to documentation"
+  ],
+  "warranty_disclaimer": [
+    "'AS IS' with all implied warranties disclaimed",
+    "Only warrants 'substantial conformance' to documentation",
+    "No warranty for third-party integrations",
+    "No warranty for internet connectivity",
+    "No warranty for compatibility",
+    "No warranty for meeting specific requirements",
+    "No warranty for data accuracy"
+  ],
+  "customer_obligations_risks": [
+    "Cannot reverse engineer (standard but prevents security audits)",
+    "Cannot resell or sublicense",
+    "Violating acceptable use policy results in immediate suspension without refund",
+    "Customer pays all taxes",
+    "Must ensure all users comply",
+    "Responsible for secure credentials"
+  ],
+  "indemnification_imbalance": [
+    "Customer indemnifies Provider for: Customer Data, use/misuse, policy violations, end users, breaches",
+    "Provider indemnifies Customer for: IP infringement only (capped at 12 months fees)",
+    "Provider can substitute non-infringing alternative or terminate and refund instead of defending",
+    "Customer's indemnification is unlimited",
+    "Extremely one-sided"
+  ],
+  "ip_concerns": [
+    "All Customer feedback becomes Provider's property",
+    "No compensation or attribution for suggestions",
+    "Customer cannot use suggestions in competing products",
+    "Provider retains all Service IP (standard)"
+  ],
+  "dispute_resolution": [
+    "Binding arbitration in Seattle, WA",
+    "Each party bears own costs initially",
+    "Arbitrator may award costs to prevailing party",
+    "Class action waiver",
+    "Washington State law governs"
+  ],
+  "financial_risk_estimate": {
+    "minimum_commitment": "$252,000 (3 years at $84K/year)",
+    "with_price_increases": "$278,040 (10% annual increases)",
+    "early_termination_penalty": "Up to $168,000 if terminate in year 1",
+    "potential_overages": "$10,000-50,000/year (API, storage, bandwidth)",
+    "total_3_year_exposure": "$288,000-328,000+",
+    "liability_exposure_for_data_claims": "Unlimited",
+    "lock_in_risk": "Cannot exit for 3 years without paying 100% of remaining"
+  },
+  "recommendation": "NEGOTIATE HEAVILY OR REJECT",
+  "rationale": "This is a highly one-sided SaaS agreement that locks Customer into a 3-year commitment with 100% early termination penalty. The combination of no early termination rights, auto-renewal with 90-day notice, non-refundable fees, and Provider's broad rights to use Customer Data creates extreme risk. The liability cap ($84K) versus total commitment ($252K+) is inadequate. Provider can unilaterally modify Service and terms. The 99.5% SLA is weak for 'cloud operations' critical infrastructure.",
+  "required_changes_to_accept": [
+    "Reduce initial term to 1 year or add annual termination option",
+    "Reduce early termination penalty to prorated refund or 25% of remaining",
+    "Limit data usage rights - remove ML training and product development rights",
+    "Increase liability cap to at least 2x annual fees ($168,000)",
+    "Add termination right if Service materially changes or features discontinued",
+    "Reduce auto-renewal notice from 90 to 30 days",
+    "Add cap on annual price increases (5% max instead of 10%)",
+    "Extend data export period from 30 to 90 days",
+    "Improve SLA to 99.9% with meaningful credits (not just 5%)",
+    "Limit Provider's ability to unilaterally modify terms",
+    "Remove Provider's right to modify Service without notice",
+    "Add mutual indemnification caps",
+    "Prohibit international data transfers or require specific approval",
+    "Add audit rights for compliance verification"
+  ],
+  "deal_breakers": [
+    "If 3-year lock-in cannot be reduced to 1 year with annual option",
+    "If 100% early termination penalty cannot be eliminated or reduced to <50%",
+    "If Provider data usage rights cannot be limited",
+    "If liability cap cannot be increased substantially",
+    "If Service modification rights cannot be constrained"
+  ],
+  "acceptable_for": "This contract might be acceptable only for non-critical systems where Customer has high confidence in 3-year need and Provider's reputation is impeccable"
+}

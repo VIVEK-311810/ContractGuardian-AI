@@ -1,0 +1,143 @@
+{
+  "contract_id": "FSD-2025-001-UR",
+  "risk_score": 10,
+  "risk_level": "Ultra Risky",
+  "category": "Freelance Software Development",
+  "contract_value": "$45,000",
+  "jurisdiction": "California",
+
+  "critical_issues": [
+    "Unlimited liability exposure with no damages cap",
+    "Non-refundable payments even if Client terminates without cause",
+    "Automatic renewal into $60,000/year maintenance commitment (90-day notice required)",
+    "Excessive insurance requirements totaling $23M coverage",
+    "One-sided indemnification - Developer liable for all claims",
+    "Developer retains IP but Client gets revocable license (creates ongoing control)",
+    "5-year non-compete prohibiting work in social media/marketing/analytics industries",
+    "No statute of limitations - Client can sue at any time",
+    "Client can terminate anytime and keep all payments and work product",
+    "Developer termination requires 60-day notice, material breach proof, and 100% refund",
+    "Developer pays all arbitration costs including Client's attorney fees",
+    "Perpetual warranties including 99.99% uptime guarantee",
+    "Client can unilaterally modify scope without additional payment or timeline extension",
+    "GPL license contamination risk requiring Client to open-source modifications"
+  ],
+
+  "liability_analysis": {
+    "type": "Unlimited",
+    "covers": [
+      "Direct, indirect, incidental, consequential, special, and punitive damages",
+      "Lost profits and revenue",
+      "Security breaches and data loss",
+      "Third-party claims and regulatory penalties",
+      "Attorney fees and litigation costs"
+    ],
+    "limitation_period": "None - no statute of limitations",
+    "indemnification": "One-sided - only Developer indemnifies Client"
+  },
+
+  "ip_concerns": [
+    "Developer retains all IP rights including source code and architecture",
+    "Client receives only non-exclusive, non-transferable, revocable license",
+    "License can be revoked if Client misses payment, breaches terms, or competes with Developer",
+    "Client cannot modify, reverse engineer, or create derivative works",
+    "Third-party GPL libraries may require Client to open-source any modifications",
+    "Creates perpetual dependency on Developer for software usage rights"
+  ],
+
+  "payment_risks": [
+    "All $45,000 in payments are non-refundable under any circumstances",
+    "Client can terminate anytime and keep all money while receiving all work product",
+    "Undefined scope expansion charged at $250/hour creates dispute potential",
+    "Developer must reimburse all expenses (AWS, API fees, licenses) within 5 days",
+    "Automatic renewal locks Developer into $5,000/month ($60,000/year) maintenance",
+    "Late payment interest only 2% per month (24% annual) - insufficient deterrent"
+  ],
+
+  "termination_risks": [
+    "Client can terminate for any reason or no reason, keeps all payments and work",
+    "Developer can only terminate for material breach after 60-day notice and cure period",
+    "If Developer terminates, must refund 100% of payments and forfeit all work product",
+    "Automatic 12-month renewal with 90-day notice requirement",
+    "All restrictive covenants survive termination indefinitely"
+  ],
+
+  "non_compete_analysis": {
+    "duration": "5 years",
+    "scope": "Entire social media, marketing, and analytics industries",
+    "geographic_restriction": "Not specified (likely unlimited)",
+    "enforceability": "Likely unenforceable in California due to Business & Professions Code §16600, but litigation risk remains",
+    "impact": "Effectively prohibits Developer from working in their field for 5 years"
+  },
+
+  "warranty_concerns": [
+    "Perpetual warranty that software will be defect-free forever",
+    "Guarantee of 99.99% uptime (53 minutes downtime per year maximum)",
+    "Warranty that software will be compatible with all browsers, devices, platforms forever",
+    "Warranty that third-party API integrations will function without interruption",
+    "No warranty limitations or disclaimers",
+    "Warranties survive indefinitely",
+    "Impossible to fulfill these warranties in practice"
+  ],
+
+  "insurance_requirements": {
+    "professional_liability": "$5,000,000",
+    "general_liability": "$3,000,000",
+    "cyber_liability": "$10,000,000",
+    "errors_and_omissions": "$5,000,000",
+    "total_coverage_required": "$23,000,000",
+    "duration": "Throughout engagement and 7 years after",
+    "estimated_annual_cost": "$15,000 - $25,000",
+    "total_estimated_cost": "$105,000 - $175,000 over 7+ years"
+  },
+
+  "dispute_resolution_concerns": [
+    "Mandatory binding arbitration in San Francisco only",
+    "Developer must pay all arbitration costs and fees",
+    "Developer must pay Client's attorney fees",
+    "No right to jury trial",
+    "No right to class action participation",
+    "No right to appeal arbitrator's decision",
+    "Heavily favors Client financially and procedurally"
+  ],
+
+  "scope_change_risks": [
+    "Client can modify scope, requirements, or deliverables at any time",
+    "No adjustment to fees or timeline for Client-requested changes",
+    "Developer must accommodate all changes within original budget and schedule",
+    "Creates unlimited scope creep potential",
+    "\"Features not explicitly documented\" charged at $250/hour creates ambiguity"
+  ],
+
+  "financial_risk_estimate": {
+    "immediate_exposure": "$45,000 (contract value at risk)",
+    "insurance_costs": "$105,000 - $175,000 (over 7+ years)",
+    "maintenance_commitment": "$60,000/year (automatic renewal)",
+    "potential_liability": "Unlimited (could be millions in damages)",
+    "opportunity_cost": "5-year non-compete eliminates most tech freelance work",
+    "total_estimated_risk": "$500,000 - $5,000,000+"
+  },
+
+  "recommendation": "REJECT",
+
+  "rationale": "This contract presents catastrophic risk that far exceeds the $45,000 compensation. The combination of unlimited liability, non-refundable payments, perpetual obligations, unrealistic warranties, and a 5-year non-compete makes this contract extremely dangerous. The client's demands suggest they are unreasonable and potentially litigious. The revocable IP license structure creates perpetual dependency while Developer retains all liability. This contract should be rejected outright.",
+
+  "required_changes_if_negotiating": [
+    "Cap liability at 2x contract value ($90,000) and exclude consequential damages entirely",
+    "Remove or limit non-compete to 6 months and specific competing products only",
+    "Remove automatic renewal - make maintenance optional with 30-day termination notice",
+    "Add mutual termination rights with prorated refunds for work not completed",
+    "Reduce insurance requirements to industry-standard $1-2M professional liability only",
+    "Establish clear change order process with additional compensation for scope changes",
+    "Transfer IP ownership to Client upon final payment (eliminate revocable license)",
+    "Limit warranties to 90 days for defects, remove perpetual and uptime guarantees",
+    "Make confidentiality and indemnification mutual and balanced",
+    "Add reasonable statute of limitations (2-3 years from discovery)",
+    "Split arbitration costs equally and eliminate Client attorney fee provision",
+    "Remove Client's unilateral amendment rights",
+    "Make all payments refundable on pro-rata basis if Client terminates without cause",
+    "Allow Developer to terminate with 30 days notice and keep earned payments"
+  ],
+
+  "alternative_recommendation": "Walk away from this engagement entirely. The risk-reward ratio is unacceptable, and the Client's unreasonable demands indicate future problems. A $45,000 project is not worth the potential $500,000+ exposure and 5-year career restrictions."
+}

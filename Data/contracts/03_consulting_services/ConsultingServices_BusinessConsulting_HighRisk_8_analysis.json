@@ -1,0 +1,36 @@
+{
+  "contract_id": "CSA-2025-002-HR",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "Consulting Services",
+  "contract_value": "$95,000",
+  "jurisdiction": "California",
+  "critical_issues": [
+    "$35,000 upfront payment non-refundable (37% of total)",
+    "If Client terminates, must pay 50% of remaining fees (up to $32,500 additional)",
+    "Consultant can only terminate for material breach with 60 days notice",
+    "18-month non-compete in enterprise SaaS market",
+    "5-year confidentiality period (long)",
+    "45-day termination notice by Client still requires substantial payment",
+    "Liability capped at $95,000 (full contract value)"
+  ],
+  "strengths": [
+    "Liability capped with consequential damages excluded",
+    "Mutual indemnification structure",
+    "Consultant retains general methodologies",
+    "Expense reimbursement included",
+    "Realistic disclaimer about business results",
+    "Clear deliverables defined",
+    "Mediation before arbitration"
+  ],
+  "financial_risk_estimate": {
+    "contract_value": "$95,000",
+    "non_refundable_upfront": "$35,000",
+    "potential_termination_payment": "$32,500",
+    "liability_exposure": "$95,000",
+    "opportunity_cost_non_compete": "$50,000-100,000 (18 months)",
+    "total_risk": "$140,000-225,000"
+  },
+  "recommendation": "NEGOTIATE",
+  "rationale": "High-value engagement with substantial non-refundable upfront payment and 50% remaining fee penalty if Client terminates. The 18-month non-compete and 5-year confidentiality are restrictive. However, liability cap and deliverables are reasonable."
+}

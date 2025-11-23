@@ -1,0 +1,32 @@
+# ContractGuardian Frontend Dependencies
+
+# Core Framework
+streamlit>=1.32.0
+
+# Data Visualization
+plotly>=5.18.0
+pandas>=2.0.0
+
+# HTTP Requests & API Communication
+requests>=2.31.0  # For watsonx Orchestrate API calls
+
+# Image Processing
+Pillow>=10.0.0
+
+# PDF Generation
+reportlab>=4.0.0
+
+# Streamlit Enhancements
+streamlit-lottie>=0.0.5
+streamlit-extras>=0.3.0
+
+# Configuration
+python-dotenv>=1.0.0
+
+# Document Processing (for local preview)
+PyPDF2>=3.0.0
+python-docx>=1.0.0
+
+# Testing (development only)
+pytest>=7.4.0
+pytest-cov>=4.1.0

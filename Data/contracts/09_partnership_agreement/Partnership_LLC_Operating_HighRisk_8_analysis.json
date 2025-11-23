@@ -1,0 +1,185 @@
+{
+  "contract_id": "Partnership-LLC-2025-001",
+  "risk_score": 8,
+  "risk_level": "High Risk",
+  "category": "Partnership Agreement",
+  "contract_value": "$300,000 initial capital ($150K each)",
+  "jurisdiction": "Delaware LLC / California disputes",
+
+  "critical_issues": [
+    "50/50 ownership creates potential for perpetual deadlock",
+    "24-month non-compete covering data analytics industry (very broad)",
+    "Perpetual confidentiality obligation",
+    "Shotgun clause allows hostile buyout forcing partner out",
+    "Drag-along rights force sale if one partner wants to exit",
+    "Additional capital contributions may be required (face dilution if can't contribute)",
+    "Full-time commitment required but only $120K salary (below market)",
+    "Death forces estate to sell to surviving partner (no choice to continue)",
+    "Unanimous consent required for most major decisions (creates gridlock)",
+    "Buy-sell valuation based on revenue multiple (could undervalue growing company)"
+  ],
+
+  "deadlock_risks": [
+    "50/50 ownership is recipe for deadlock",
+    "Unanimous consent required for: amendments, new members, sale, loans >$50K, hiring/firing officers",
+    "If partners disagree, business paralyzed",
+    "Deadlock provision: 'matter fails unless resolved through mediation'",
+    "No clear tiebreaker mechanism",
+    "90+ day deadlock triggers buyout right",
+    "Could force dissolution or hostile buyout via shotgun clause"
+  ],
+
+  "shotgun_clause_danger": [
+    "Either partner can force buyout at any time",
+    "Offering partner names price",
+    "Receiving partner must either:",
+    "- Sell at that price, or",
+    "- Buy offering partner's interest at same price within 30 days",
+    "Favors partner with more liquidity",
+    "Could force financially constrained partner out",
+    "30-day response time is very short to arrange financing"
+  ],
+
+  "non_compete_analysis": {
+    "duration": "24 months post-separation",
+    "scope": [
+      "Cannot start competing data analytics business",
+      "Cannot work for or invest in direct competitors",
+      "Cannot solicit customers or employees"
+    ],
+    "industry_restriction": "Entire data analytics industry (extremely broad)",
+    "assessment": "Severely limits career options for 2 years in entire industry"
+  },
+
+  "drag_along_concerns": [
+    "If one partner agrees to sell Company, can force other to sell",
+    "Other partner must accept same terms",
+    "No veto right over sale of Company",
+    "Could be forced to sell even if disagreeing with valuation or buyer"
+  ],
+
+  "tag_along_provision": [
+    "If one partner sells stake, other can participate pro-rata",
+    "Protects against being left with unknown new partner",
+    "Good provision but doesn't prevent drag-along"
+  ],
+
+  "capital_contribution_risks": [
+    "Additional contributions may be required by unanimous vote",
+    "If can't contribute, face dilution of ownership",
+    "$150K initial investment already substantial",
+    "May need more capital as business grows",
+    "If one partner can't contribute, shifts power dynamic"
+  ],
+
+  "compensation_concerns": [
+    "$120,000 annual salary for CEO and CTO",
+    "Below market for senior tech roles in San Francisco",
+    "Salary requires unanimous vote to change",
+    "If partners deadlock, stuck at $120K",
+    "Must live on $120K in expensive SF market while equity illiquid"
+  ],
+
+  "buyout_valuation": [
+    "12-month trailing revenue × industry multiple",
+    "Adjusted for assets/liabilities",
+    "Method may undervalue high-growth startups",
+    "Early-stage companies often have low revenue but high potential",
+    "Doesn't account for intellectual property value",
+    "Doesn't consider future contracts or pipeline",
+    "20% cash, remainder over 36 months at 6% interest",
+    "Buying partner needs liquidity for 20% cash payment"
+  ],
+
+  "death_disability_provisions": [
+    "Death: Estate MUST sell to surviving partner (no choice)",
+    "Surviving partner acquires at fair market value",
+    "Estate can't continue as passive investor",
+    "Could force sale at inopportune time/valuation",
+    "Life insurance recommended but not required",
+    "Disability: 6+ months triggers buyout right",
+    "Disabled partner could be forced out"
+  ],
+
+  "management_structure": [
+    "Member-managed (both participate)",
+    "Alex: CEO with final say on business strategy if deadlocked",
+    "Morgan: CTO with final say on technical decisions if deadlocked",
+    "Splits authority but could create conflicts",
+    "What if strategic and technical decisions overlap?"
+  ],
+
+  "voting_concerns": [
+    "One vote per unit (500 each)",
+    "All major decisions require unanimity",
+    "Creates veto power for each partner",
+    "Routine decisions require majority (still both partners in 50/50)",
+    "No outside board or advisors for tiebreaking"
+  ],
+
+  "transfer_restrictions": [
+    "Right of first refusal on any sale",
+    "Transfer >10% requires unanimous consent",
+    "Good: prevents unwanted partners",
+    "Bad: limits exit options and liquidity"
+  ],
+
+  "dissolution_provisions": [
+    "Requires unanimous vote to dissolve",
+    "Or bankruptcy of member",
+    "Or judicial dissolution",
+    "Distribution priority: creditors, capital return, then remainder",
+    "Remaining member may continue business"
+  ],
+
+  "tax_implications": [
+    "Partnership taxation (K-1s issued)",
+    "Allocated income taxed even if not distributed",
+    "Tax distributions promised but could cause cash flow issues",
+    "Special allocations per IRC regulations"
+  ],
+
+  "ip_and_confidentiality": [
+    "All work product belongs to Company",
+    "Perpetual confidentiality (no expiration)",
+    "IP assignment covers all inventions during membership",
+    "Standard for partnership but perpetual confidentiality is long"
+  ],
+
+  "financial_risk_estimate": {
+    "capital_at_risk": "$150,000 initial investment",
+    "additional_capital_potential": "$50,000-200,000 if more rounds needed",
+    "opportunity_cost_below_market_salary": "$30,000-50,000/year (market is $150K-170K)",
+    "forced_buyout_risk": "Could lose stake at unfavorable valuation",
+    "non_compete_opportunity_cost": "$100,000-300,000 (2 years limited employment)",
+    "total_3_year_risk": "$400,000-800,000"
+  },
+
+  "recommendation": "NEGOTIATE HEAVILY",
+
+  "rationale": "This 50/50 partnership structure has significant risks. The equal split creates deadlock potential on all major decisions. The shotgun clause and drag-along rights allow hostile actions by either partner. The 24-month non-compete in the entire data analytics industry is overly broad. The $120K salary is below market for SF. The buyout valuation method may undervalue the business. Death forces estate to sell. However, the partnership allows shared risk and complementary skills (CEO + CTO).",
+
+  "required_changes": [
+    "Consider 51/49 split or rotating tiebreaker to prevent deadlock",
+    "Remove or significantly limit shotgun clause (require cause, not at-will)",
+    "Reduce non-compete to 12 months and narrow to direct competitors only",
+    "Increase salaries to market rate ($150K-170K) or at least $140K",
+    "Improve buyout valuation: use DCF or include IP value",
+    "Allow death/disability to result in passive ownership for estate/disabled partner",
+    "Limit drag-along to qualified sales above certain valuation threshold",
+    "Add independent board seat or advisor for tiebreaking",
+    "Cap additional capital requirements or set clear funding milestones",
+    "Add good leaver/bad leaver provisions for fault-based separations",
+    "Extend shotgun response time from 30 to 60-90 days",
+    "Add vesting schedule for equity (4-year vest) to prevent early departure"
+  ],
+
+  "deal_breakers": [
+    "If shotgun clause cannot be removed or limited",
+    "If non-compete cannot be reduced below 18 months",
+    "If salary cannot be increased to reasonable market rate",
+    "If no tiebreaker mechanism can be added for 50/50 deadlock"
+  ],
+
+  "when_acceptable": "This structure works if: (1) partners have deep trust and aligned vision, (2) both have adequate liquidity for shotgun scenario, (3) willing to accept below-market salary initially, (4) committed for long term (5+ years), (5) have strong communication and conflict resolution skills"
+}

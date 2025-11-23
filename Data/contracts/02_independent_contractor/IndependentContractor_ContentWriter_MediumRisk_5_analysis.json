@@ -1,0 +1,108 @@
+{
+  "contract_id": "ICA-2025-002-MR",
+  "risk_score": 5,
+  "risk_level": "Medium Risk",
+  "category": "Independent Contractor Agreement",
+  "contract_value": "$2,500-3,500/month ($30,000-42,000 annually)",
+  "jurisdiction": "California",
+
+  "critical_issues": [
+    "No fixed term creates ongoing obligation until terminated",
+    "14-day termination notice for either party",
+    "Work for hire means no portfolio rights without permission",
+    "Only 2 free revision rounds (reasonable but could be limiting)",
+    "6-month non-compete with direct competitors",
+    "Payment net 15 days",
+    "Additional revisions at $75/hour could add up"
+  ],
+
+  "strengths": [
+    "Reasonable liability cap at 3 months fees",
+    "Mutual indemnification structure",
+    "Short 2-year confidentiality period",
+    "Limited 6-month non-compete with specific competitors",
+    "Either party can terminate with 14 days notice",
+    "Pro-rated payment for work in progress",
+    "Clear rate structure and deliverable expectations",
+    "No auto-renewal or lock-in period",
+    "Portfolio use allowed with permission",
+    "Company responsible for factual accuracy of their info"
+  ],
+
+  "compensation_analysis": {
+    "blog_articles": "$250 per article (1000-1500 words) = $0.17-0.25/word (fair rate)",
+    "white_papers": "$800-1200 for 2500-4000 words = $0.20-0.48/word (good rate)",
+    "hourly_editing": "$75/hour (reasonable for editing)",
+    "monthly_range": "$2,500-3,500 (part-time engagement)",
+    "payment_terms": "Net 15 days (standard)",
+    "revision_policy": "2 free rounds, then $75/hour (fair)"
+  },
+
+  "ip_concerns": [
+    "Work for hire - Company owns all content",
+    "Portfolio use requires permission (restrictive but negotiable)",
+    "Cannot reuse content for other clients",
+    "Standard for content writing but limits portfolio building",
+    "Originality warranty requires Contractor ensure no plagiarism"
+  ],
+
+  "non_compete_analysis": {
+    "duration": "6 months (reasonable)",
+    "scope": "Direct competitors only (narrow and fair)",
+    "must_be_mutually_identified": "Requires written identification (good protection)",
+    "geographic_scope": "Not specified (could be issue)",
+    "enforceability": "Likely enforceable given limited scope"
+  },
+
+  "liability_analysis": {
+    "cap": "Fees paid in previous 3 months ($7,500-10,500)",
+    "excluded_damages": "Indirect and consequential",
+    "indemnification_cap": "Up to liability cap",
+    "mutual_indemnification": "Yes, with appropriate scope division",
+    "assessment": "Reasonable and balanced"
+  },
+
+  "termination_terms": [
+    "Either party: 14 days notice",
+    "Complete work in progress or get paid pro-rata",
+    "Payment for all completed approved work",
+    "No penalties or forfeitures",
+    "Reasonable and balanced"
+  ],
+
+  "workflow_concerns": [
+    "Company must provide feedback within 5 days or content deemed approved",
+    "Prevents indefinite revision delays",
+    "2 revision rounds may not be enough for complex topics",
+    "Additional revisions at $75/hour is fair but could inflate costs"
+  ],
+
+  "confidentiality": {
+    "duration": "2 years post-termination",
+    "scope": "Business plans, unpublished content, strategic info",
+    "assessment": "Reasonable term and scope"
+  },
+
+  "financial_risk_estimate": {
+    "potential_monthly_income": "$2,500-3,500",
+    "annual_value": "$30,000-42,000",
+    "liability_exposure": "$7,500-10,500 (capped)",
+    "opportunity_cost_from_non_compete": "$5,000-10,000 (6 months × limited scope)",
+    "total_risk": "$12,500-20,500"
+  },
+
+  "recommendation": "SIGN WITH MINOR NEGOTIATIONS",
+
+  "rationale": "This is a fair, balanced content writing contract. The liability is reasonably capped, indemnification is mutual, termination terms are balanced, and the non-compete is limited to 6 months and direct competitors only. The compensation is market-rate for quality content writing. The 2-year confidentiality and work-for-hire IP terms are industry standard. Main concerns are portfolio rights requiring permission and the ongoing nature with no fixed term.",
+
+  "suggested_improvements": [
+    "Add explicit portfolio rights (can use with anonymized client name)",
+    "Clarify geographic scope of non-compete",
+    "Consider 3 revision rounds instead of 2 for complex content",
+    "Add payment terms for late payment (interest)",
+    "Specify response time expectations for urgent requests",
+    "Add provision for content usage rights attribution if desired"
+  ],
+
+  "acceptable_as_is": "Yes, this contract is acceptable with only minor improvements needed"
+}
