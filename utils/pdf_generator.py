@@ -218,8 +218,7 @@ def generate_pdf_report(analysis_results: dict, filename: str = "contract_analys
             else:
                 # Escape special characters for reportlab
                 line_escaped = line.replace('&', '&amp;').replace('<', '&lt;').replace('>', '&gt;')
-                # Preserve bold markers if any
-                line_escaped = line_escaped.replace('**', '<b>').replace('**', '</b>')
+                # Don't try to parse bold markers - just render as plain text
                 story.append(Paragraph(line_escaped, body_style))
 
     # Footer
