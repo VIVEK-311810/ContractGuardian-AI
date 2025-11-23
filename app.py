@@ -160,7 +160,7 @@ def main():
 
         # Initialize client - using real watsonx Orchestrate
         # To use mock data for testing, change to: client = MockWatsonXClient()
-        client = WatsonXClient()
+        client = MockWatsonXClient()
 
         # Upload contract
         uploaded_file = st.session_state.uploaded_file
